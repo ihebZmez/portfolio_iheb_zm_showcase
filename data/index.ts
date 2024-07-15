@@ -1,14 +1,17 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Accueil", link: "#" },
+  { name: "À Propos", link: "#about" },
+  { name: "Projets", link: "#projects" },
+  { name: "Compétences", link: "#projects" },
+  { name: "Témoignages", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "Je privilégie la collaboration et la communication ouverte avec les clients.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,39 +21,79 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "Je m'adapte facilement aux différents fuseaux horaires et aux lieux de travail.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
   {
+    id: 5,
+    title: "Finances & Comptabilité",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
+    imgClassName: "",
+    titleClassName: "justify-end",
+    img: "/grid.svg",
+    spareImg: "/Finances_Comptabilite_resized.svg",
+  },
+  {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "Compétences & Expériences",
+    description: "Différents Outils",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-3",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
   {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    id: 7,
+    title: "Meilleur prix sur le marché de la technologie",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    id: 4,
+    title: "Administration & Gestion",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/Administration_Gestion.svg",
+  },
+  {
+    id: 8,
+    title: "Informatique & Sécurité",
+    description: "",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+  },
+  {
+    id: 9,
+    title: "Formuler & Développer",
+    description: "",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+  },
+  {
+    id: 10,
+    title: "Meilleure qualité de code pour un futur évolutif",
+    description: "Meilleures modélisations",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,8 +101,8 @@ export const gridItems = [
     spareImg: "/grid.svg",
   },
   {
-    id: 6,
-    title: "Do you want to start a project together?",
+    id: 11,
+    title: "Ventes & Marketing",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -67,37 +110,66 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+  {
+    id: 12,
+    title: "Laissez-moi Vous Aider à Réaliser vos Projets",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+  },
+
+  {
+    id: 6,
+    title: "Comment me Contacter",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+  },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Application « Stocks-IT »",
+    des: "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante utilisant Angular et Spring Boot.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Application « Réservatory »",
+    des: "Simplifiez votre expérience de réservation. Entraînez-vous à la salle de sport avec des collègues et des amis.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Application « Payment-Stack »",
+    des: "Une VRAIE application Software-as-a-Service avec des fonctionnalités d'IA et un système de paiements et de crédits utilisant la dernière pile technologique.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Site Web Animé Huawei Pura 70 Ultra 3D",
+    des: "Recréation du site Web du HUAWEI Pura 70 Ultra, combinant des animations GSAP et des effets 3D Three.js.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 4,
+    title: "Site Web Animé Huawei Pura 70 Ultra 3D",
+    des: "Recréation du site Web du HUAWEI Pura 70 Ultra, combinant des animations GSAP et des effets 3D Three.js.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -107,33 +179,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Travailler avec Iheb a été un véritable plaisir. Son professionnalisme, sa rapidité et son dévouement à fournir des résultats exceptionnels étaient évidents tout au long de notre projet. L'enthousiasme d'Adrian pour chaque aspect du développement est remarquable. Si vous souhaitez améliorer votre site web et rehausser votre marque, Iheb est le partenaire idéal.",
+    name: "Ali KANZARI",
+    title:
+      "Président de Chambre syndicale du photovoltaïque | Solar Energy Systems",
+    image_profil: "/Ali-KANZARI.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Iheb est un développeur full stack fiable, réactif et doté d'un vrai sens du professionnalisme. Nous bénéficions de ses conseils et de son accompagnement en matière de développement web, d'architecture logicielle et de solutions techniques. Un accompagnement de qualité, marqué par la rigueur, la fiabilité et la bienveillance d'Iheb. Aujourd'hui, Iheb est un véritable partenaire de notre société, acteur de notre croissance.",
+    name: "Anis MSAHLI",
+    title:
+      "CEO & Founder CFAC Group | Ingénieur Financier | Commissaire Aux Comptes | Directeur des systèmes d'information | Auditeur Tierce Partie",
+    image_profil: "/Anis-MSAHLI.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Sans conteste, Iheb est l'un des programmeurs les plus talentueux du marché. Lorsque je me trouve face à des défis complexes, je fais systématiquement appel à ses compétences, et il répond toujours à mes attentes. Doté d'une intelligence remarquable, d'une grande fiabilité et d'un professionnalisme exemplaire, il ne vous décevra pas.",
+    name: "Mohamed AYARI",
+    title: "AI/ML Engineer | Building real-world ML products",
+    image_profil: "/Mohamed-AYARI.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Personnel jeune et dynamique, toujours ponctuel, accueillant et doté d'une grande empathie pour identifier et anticiper les difficultés, en proposant systématiquement des alternatives concrètes. - Marchetto Giovanni & Pollani Liberto, Directeur de l'usine et Avocat général d'Elettro BCA.",
+    name: "Sadok BEN YEDDER",
+    title: "CEO Groupe CAFÉ",
+    image_profil: "Sadok-BEN-YEDDER.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Du début du projet jusqu'à son achèvement, Iheb nous a accompagné et a dépassé nos attentes à tous points de vue. Non seulement notre expérience a été personnelle et amicale, mais sa capacité à identifier et à présenter nos messages clés de manière imaginative et créative nous a donné une énorme confiance en lui.",
+    name: "feres FOUDHAILI",
+    title: "Cloud Solution Architect",
+    image_profil: "/Feres-FOUDHAILI.png",
   },
 ];
 
@@ -173,29 +252,55 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Développeur principal - CFAC",
+    desc: "Responsable sur le développement de trois applications web en utilisant PHP, React, Spring Boot en améliorant l'interactivité.",
+    tasks_desc:
+      "Développer une application web de facturation, paiements, suivi des dépenses, tâches facturables, les opérations financières, l'envoi des factures, la réception de paiements et le suivi des performances pour toutes les 11 entreprises.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Secrétaire Général - CSPV - UTICA",
+    desc: "Responsable sur le développement, le désigne et la mise à jour de site web en utilisant WordPress et Photoshop ainsi la commercialisation.",
+    tasks_desc:
+      "Aide au développement d'une plate-forme Web, transmettre les courriers et les e-mails et la responsabilité administrative et financière améliorant l'interactivité.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Projet de développement d'applications indépendant",
+    desc: "Développer un site WordPress pour une agence de communication.",
+    tasks_desc:
+      "Choisir un thème, Personnaliser le design, Intégrer du contenu, Hébergement, Google analytique, moteurs de recherche",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Projet de développement d'applications indépendant",
+    desc: "Développer un site pour la publicité, la réservation de chalets, de terrains de camping et de randonnées pour toutes les saisons de l'année au Canada.",
+    tasks_desc:
+      "Choix de la plateforme et du domaine, Conception de l'architecture, développement du site, Intégration de fonctionnalités supplémentaires, Mise en place la gestion des réservations.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 5,
+    title: "Projet de développement d'applications indépendant",
+    desc: "Développer mon site Web Next.js. Mettre en place les animations, contenu de site, les notifications par la section de contact.",
+    tasks_desc:
+      "À l'aide de Next.js, React.js, Three.js, Framer Motion, Tailwind CSS et Figma, je développe des sites web innovants et performants. En utilisant les meilleures pratiques et technologies pour offrir une expérience utilisateur exceptionnelle.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 6,
+    title: "Développeur Full Stack - Arem Group",
+    desc: "Aide au développement d'une application de gestion de stocks. Qu'elle permet de Manipuler (les articles, les bons de livraison, les expéditions...)",
+    tasks_desc:
+      "Développement d'une partie du cycle interne d'une plateforme web utilisant Spring Boot, Angular, ainsi que la modélisation UML.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
