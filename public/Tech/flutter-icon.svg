@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="-30.5 0 317 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-    <defs>
-        <linearGradient x1="3.9517088%" y1="26.9930287%" x2="75.8970734%" y2="52.9192657%" id="linearGradient-1">
-            <stop stop-color="#000000" offset="0%">
-</stop>
-            <stop stop-color="#000000" stop-opacity="0" offset="100%">
-</stop>
-        </linearGradient>
-    </defs>
-		<g>
-				<polygon fill="#47C5FB" points="157.665785 0.000549356223 0.000549356223 157.665785 48.8009614 206.466197 255.267708 0.000549356223">
-</polygon>
-				<polygon fill="#47C5FB" points="156.567183 145.396793 72.1487107 229.815265 121.132608 279.530905 169.842925 230.820587 255.267818 145.396793">
-</polygon>
-				<polygon fill="#00569E" points="121.133047 279.531124 158.214592 316.61267 255.267159 316.61267 169.842266 230.820807">
-</polygon>
-				<polygon fill="#00B5F8" points="71.5995742 230.364072 120.401085 181.562561 169.842046 230.821136 121.132827 279.531454">
-</polygon>
-				<polygon fill-opacity="0.8" fill="url(#linearGradient-1)" points="121.132827 279.531454 161.692896 266.072227 165.721875 234.941308">
-</polygon>
-		</g>
+<svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="225" cy="225" r="225" fill="#343D44"/>
+<circle cx="225" cy="225" r="150" fill="white"/>
+<path d="M218.639 128.057L125.214 221.78L154.131 250.79L276.473 128.057H218.639Z" fill="#54C2F0"/>
+<path d="M217.994 214.483L167.967 264.67L196.995 294.215L225.846 265.272L276.473 214.483H217.994Z" fill="#54C2F0"/>
+<path d="M196.995 294.215L218.95 316.262H276.473L225.846 265.272L196.995 294.215Z" fill="#09579F"/>
+<path d="M167.633 265.004L196.55 235.973L225.845 265.272L196.995 294.215L167.633 265.004Z" fill="#37B0E6"/>
+<path d="M196.995 294.215L221.019 286.226L223.399 267.705L196.995 294.215Z" fill="url(#paint0_linear_333_130)" fill-opacity="0.8"/>
+<defs>
+<linearGradient id="paint0_linear_333_130" x1="197.014" y1="276.351" x2="216.062" y2="283.188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#020203"/>
+<stop offset="1" stop-color="#020203" stop-opacity="0"/>
+</linearGradient>
+</defs>
 </svg>

@@ -2,8 +2,17 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import {
+  framework_skills,
+  programmer_skills,
+  companies,
+  testimonials,
+  database_skills,
+  know_some_skills,
+  tools_on_skills,
+} from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { AnimatedTooltip } from "./ui/AnimatedTooltip";
 
 const Clients = () => {
   return (
