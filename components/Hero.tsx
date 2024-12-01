@@ -56,9 +56,18 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
             Salut! je suis Iheb Zmerli, un Développeur Full Stack et
             Freelanceur.
+          </p>
+          <p className="text-center pt-14 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Axé sur les solutions de{" "}
+            <span className="text-purple">création de produits</span>
+            et <span className="text-purple">services informatique</span>. Conçu
+            et développé des applications{" "}
+            <span className="text-purple font-semibold"> Web </span>ou
+            <span className="text-purple font-semibold"> Desktop </span>
+            sur plusieurs API.
           </p>
 
           <a href="#about">

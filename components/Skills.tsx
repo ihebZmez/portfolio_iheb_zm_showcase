@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-        ALL MY <span className="text-purple">Skills</span>
+        MES <span className="text-purple">Compétences</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
