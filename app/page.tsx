@@ -6,6 +6,10 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
+<<<<<<< HEAD
+=======
+import Skills from "@/components/Skills";
+>>>>>>> all_content_add
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
@@ -20,6 +24,10 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Clients />
+<<<<<<< HEAD
+=======
+        <Skills />
+>>>>>>> all_content_add
         <Experience />
         <Approach />
         <Footer />

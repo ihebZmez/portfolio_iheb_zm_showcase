@@ -11,7 +11,11 @@ export const gridItems = [
   {
     id: 1,
     title:
+<<<<<<< HEAD
       "Je privilégie la collaboration et la communication ouverte avec les clients.",
+=======
+      "Je Privilégie La Collaboration Et La Communication Ouverte Avec Les Clients.",
+>>>>>>> all_content_add
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -22,7 +26,11 @@ export const gridItems = [
   {
     id: 2,
     title:
+<<<<<<< HEAD
       "Je m'adapte facilement aux différents fuseaux horaires et aux lieux de travail.",
+=======
+      "Je m'adapte Aisément À Divers Fuseaux Horaires Et Environnements De Travail.",
+>>>>>>> all_content_add
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
@@ -92,8 +100,13 @@ export const gridItems = [
   },
   {
     id: 10,
+<<<<<<< HEAD
     title: "Meilleure qualité de code pour un futur évolutif",
     description: "Meilleures modélisations",
+=======
+    title: "Meilleure Qualité De Code Pour Un Futur Évolutif",
+    description: "Meilleures Modélisations",
+>>>>>>> all_content_add
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -136,6 +149,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+<<<<<<< HEAD
     title: "Application « Stocks-IT »",
     des: "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante utilisant Angular et Spring Boot.",
     img: "/p1.svg",
@@ -173,6 +187,81 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+=======
+    title: "Application « De Facturation Pour Les Petites Entreprises »",
+    des: "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante. Gérez vos factures et paiements, projets et tâches, dépenses et fournisseurs.",
+    img: "/accounting-financial-main.svg",
+    iconLists: [
+      "/Tech/php-icon.svg",
+      "/Tech/laravel-icon.svg",
+      "/Tech/mysql-icon.svg",
+      "/Tech/css-icon.svg",
+      "/Tech/github-icon.svg",
+    ],
+    linkName: "Invoice Pro",
+    linkProject: "http://invoicepro.cfacgroup.com/login",
+  },
+  {
+    id: 2,
+    title: "Application « Gestion de services et d'assistance »",
+    des: "Application web entièrement paramétrable,d'un système d'assistance et d'un outil des documentaire, Gestion Services & Contrats, Automatisation, Synchronisation des données, Rapports",
+    img: "/CRM-workflow-pro.jpg",
+    iconLists: [
+      "/Tech/symfony-icon.svg",
+      "/Tech/php-icon.svg",
+      "/Tech/apache-icon.svg",
+      "/Tech/github-icon.svg",
+      "/Tech/mysql-icon.svg",
+    ],
+    linkName: "WorkFlow Pro",
+    linkProject:
+      "http://espaceclient.cfacgroup.com/cfac_workflow_pro/pages/UI.php",
+  },
+  {
+    id: 3,
+    title: "Application « Daaquam Monentre Prisevirtuelle Canada »",
+    des: "site pour la publicité, la réservation de chalets, de terrains de camping et de randonnées pour toutes les saisons de l'année au Canada. Conception et Intégration des fonctionnalités,Mise en place des réservations",
+    img: "/daaquam.png",
+    iconLists: [
+      "/Tech/wordpress-icon.svg",
+      "/Tech/avada-icon.svg",
+      "/Tech/photoshop-icon.svg",
+      "/Tech/canva-icon.svg",
+      "/Tech/css-icon.svg",
+    ],
+    linkName: "Daaquam Canada",
+    linkProject: "https://daaquam.monentreprisevirtuelle.com/",
+  },
+  {
+    id: 4,
+    title: "site « WordPress pour une agence de communication »",
+    des: "Développer un site Freelance WordPress pour une agence de communication au Canada. Personnaliser le design, le thème et Intégrer du contenu, mettre les animations...",
+    img: "/communication-agency-icon.jpg",
+    iconLists: [
+      "/Tech/wordpress-icon.svg",
+      "/Tech/avada-icon.svg",
+      "/Tech/photoshop-icon.svg",
+      "/Tech/canva-icon.svg",
+      "/Tech/css-icon.svg",
+    ],
+    linkName: "Annie Janelle",
+    linkProject: "https://anniejanelle.monentreprisevirtuelle.com/",
+  },
+  {
+    id: 4,
+    title: "« Chambre Syndicale des Producteurs de Photovoltaïque (CSPV) »",
+    des: "Corriger et optimiser le site web pour ce groupe qui prend en charge l'organisation des événements et l'accompagnement. Promouvoir l'adhésion de nouveaux membres et mener des actions marketing pour informer les Tunisiens des avantages de l'installation de systèmes photovoltaïques.",
+    img: "/photovoltaique-cspv.jpg",
+    iconLists: [
+      "/Tech/wordpress-icon.svg",
+      "/Tech/elementor-icon.svg",
+      "/Tech/photoshop-icon.svg",
+      "/Tech/canva-icon.svg",
+      "/Tech/css-icon.svg",
+    ],
+    linkName: "CSPV UTICA",
+    linkProject: "http://cspv.tn/",
+>>>>>>> all_content_add
   },
 ];
 
@@ -210,40 +299,262 @@ export const testimonials = [
   {
     quote:
       "Du début du projet jusqu'à son achèvement, Iheb nous a accompagné et a dépassé nos attentes à tous points de vue. Non seulement notre expérience a été personnelle et amicale, mais sa capacité à identifier et à présenter nos messages clés de manière imaginative et créative nous a donné une énorme confiance en lui.",
+<<<<<<< HEAD
     name: "feres FOUDHAILI",
     title: "Cloud Solution Architect",
+=======
+    name: "Feres FOUDHAILI",
+    title: "Architecte De Solutions Cloud",
+>>>>>>> all_content_add
     image_profil: "/Feres-FOUDHAILI.png",
   },
 ];
 
+<<<<<<< HEAD
+=======
+export const programmer_skills = [
+  {
+    id: 1,
+    name: "Java",
+    designation: "",
+    image: "/Tech/java-icon.svg",
+  },
+  {
+    id: 2,
+    name: "JavaScript",
+    designation: "",
+    image: "/Tech/javascript-icon.svg",
+  },
+  {
+    id: 3,
+    name: "PHP",
+    designation: "",
+    image: "/Tech/php-icon.svg",
+  },
+  {
+    id: 4,
+    name: "Node JS",
+    designation: "",
+    image: "/Tech/node-js-icon.svg",
+  },
+  {
+    id: 5,
+    name: "C#",
+    designation: "",
+    image: "/Tech/c-sharp-icon.svg",
+  },
+  {
+    id: 6,
+    name: "HTML",
+    designation: "",
+    image: "/Tech/html-icon.svg",
+  },
+  {
+    id: 7,
+    name: "CSS",
+    designation: "",
+    image: "/Tech/css-icon.svg",
+  },
+];
+
+export const framework_skills = [
+  {
+    id: 1,
+    name: "Angular",
+    designation: "",
+    image: "/Tech/angular-icon.svg",
+  },
+  {
+    id: 2,
+    name: ".NET",
+    designation: "",
+    image: "/Tech/NET-icon.svg",
+  },
+  {
+    id: 3,
+    name: "Laravel",
+    designation: "",
+    image: "/Tech/laravel-icon.svg",
+  },
+  {
+    id: 4,
+    name: "React",
+    designation: "",
+    image: "/Tech/react-icon.svg",
+  },
+  {
+    id: 5,
+    name: "Next JS",
+    designation: "",
+    image: "/Tech/nextjs-icon.svg",
+  },
+  {
+    id: 6,
+    name: "Spring",
+    designation: "",
+    image: "/Tech/spring-icon.svg",
+  },
+  {
+    id: 7,
+    name: "Symfony",
+    designation: "",
+    image: "/Tech/symfony-icon.svg",
+  },
+  {
+    id: 8,
+    name: "Flutter",
+    designation: "",
+    image: "/Tech/flutter-icon.svg",
+  },
+  {
+    id: 9,
+    name: "Ruby",
+    designation: "",
+    image: "/Tech/ruby-icon.svg",
+  },
+];
+
+export const database_skills = [
+  {
+    id: 1,
+    name: "MariaDB",
+    designation: "",
+    image: "/Tech/mariadb-icon.svg",
+  },
+  {
+    id: 2,
+    name: "Mongo",
+    designation: "",
+    image: "/Tech/mongo-icon.svg",
+  },
+  {
+    id: 3,
+    name: "MySql",
+    designation: "",
+    image: "/Tech/mysql-icon.svg",
+  },
+  {
+    id: 4,
+    name: "PostgreSQL",
+    designation: "",
+    image: "/Tech/postgresql-icon.svg",
+  },
+];
+
+export const tools_on_skills = [
+  {
+    id: 1,
+    name: "Maven",
+    designation: "",
+    image: "/Tech/maven-icon.svg",
+  },
+  {
+    id: 2,
+    name: "Redux",
+    designation: "",
+    image: "/Tech/redux-icon.svg",
+  },
+  {
+    id: 3,
+    name: "NPM",
+    designation: "",
+    image: "/Tech/npm-icon.svg",
+  },
+];
+
+export const know_some_skills = [
+  {
+    id: 1,
+    name: "Kubernetes",
+    designation: "",
+    image: "/Tech/kubernetes-icon.svg",
+  },
+  {
+    id: 2,
+    name: "Jenkins",
+    designation: "",
+    image: "/Tech/jenkins-icon.svg",
+  },
+  {
+    id: 3,
+    name: "Ansible",
+    designation: "",
+    image: "/Tech/ansible-icon.svg",
+  },
+  {
+    id: 4,
+    name: "Prometheus",
+    designation: "",
+    image: "/Tech/prometheus-icon.svg",
+  },
+  {
+    id: 5,
+    name: "Grafana",
+    designation: "",
+    image: "/Tech/grafana-icon.svg",
+  },
+  {
+    id: 6,
+    name: "Webmin",
+    designation: "",
+    image: "/Tech/webmin-icon.svg",
+  },
+];
+
+>>>>>>> all_content_add
 export const companies = [
   {
     id: 1,
     name: "cloudinary",
+<<<<<<< HEAD
+=======
+    designation: "",
+    image: "/cloud.svg",
+>>>>>>> all_content_add
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
+<<<<<<< HEAD
+=======
+    designation: "",
+    image: "/app.svg",
+>>>>>>> all_content_add
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
+<<<<<<< HEAD
+=======
+    designation: "",
+    image: "/host.svg",
+>>>>>>> all_content_add
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
+<<<<<<< HEAD
+=======
+    designation: "",
+    image: "/s.svg",
+>>>>>>> all_content_add
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
+<<<<<<< HEAD
+=======
+    designation: "",
+    image: "/dock.svg",
+>>>>>>> all_content_add
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
@@ -253,9 +564,15 @@ export const workExperience = [
   {
     id: 1,
     title: "Développeur principal - CFAC",
+<<<<<<< HEAD
     desc: "Responsable sur le développement de trois applications web en utilisant PHP, React, Spring Boot en améliorant l'interactivité.",
     tasks_desc:
       "Développer une application web de facturation, paiements, suivi des dépenses, tâches facturables, les opérations financières, l'envoi des factures, la réception de paiements et le suivi des performances pour toutes les 11 entreprises.",
+=======
+    desc: "Responsable sur le développement de cinq applications web en améliorant l'interactivité.",
+    tasks_desc:
+      "Développer une application web de facturation, la réception de paiements, suivi des dépenses, tâches facturables,  pour toutes les 11 entreprises.",
+>>>>>>> all_content_add
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -310,6 +627,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+<<<<<<< HEAD
   },
   {
     id: 2,
@@ -318,5 +636,18 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+=======
+    link: "https://github.com/ihebzmerli",
+  },
+  {
+    id: 2,
+    img: "/x-icon.svg",
+    link: "https://x.com/?lang=fr",
+  },
+  {
+    id: 3,
+    img: "/linkedin.svg",
+    link: "https://linkedin.com/Zmerli Iheb",
+>>>>>>> all_content_add
   },
 ];

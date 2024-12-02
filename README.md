@@ -1,22 +1,43 @@
 <div align="center">
   <br />
+<<<<<<< HEAD
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
       <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+=======
+    <a href="https://github.com/ihebZmez" target="_blank">
+      <Image src="public/README_ressources/presentation_1_no_backround.png" alt="Project Banner"/>
+      <Image src="public/README_ressources/presentation_2_no_backround.png" alt="Project Banner"/>
+    </a>
+        <a href="https://github.com/ihebZmez" target="_blank">
+>>>>>>> all_content_add
     </a>
   <br />
 
   <div>
+<<<<<<< HEAD
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+=======
+    <Image src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <Image src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
+    <Image src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
+    <Image src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+>>>>>>> all_content_add
   </div>
 
   <h3 align="center">A Modern Next.js Portfolio</h3>
 
+<<<<<<< HEAD
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
     </div>
+=======
+  <div align="center">
+    Join My family!
+  </div>
+>>>>>>> all_content_add
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -31,20 +52,28 @@
 
 ## 🚨 Tutorial
 
+<<<<<<< HEAD
 This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
 <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
+=======
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+
+>>>>>>> all_content_add
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
+<<<<<<< HEAD
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
+=======
+>>>>>>> all_content_add
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
@@ -58,7 +87,11 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
 
+<<<<<<< HEAD
 👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+=======
+👉 **3D Elements**: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+>>>>>>> all_content_add
 
 👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
@@ -68,7 +101,11 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
+<<<<<<< HEAD
 and many more, including code architecture and reusability 
+=======
+and many more, including code architecture and reusability
+>>>>>>> all_content_add
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -118,6 +155,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+<<<<<<< HEAD
 export const gridItems = [
   {
     id: 1,
@@ -314,6 +352,8 @@ export const workExperience = [
   },
 ];
 
+=======
+>>>>>>> all_content_add
 export const socialMedia = [
   {
     id: 1,
@@ -641,7 +681,10 @@ export default config;
 
 </details>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> all_content_add
 <details>
 <summary><code>Linear Gradient</code></summary>
 
@@ -654,8 +697,13 @@ style={{
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
 ```
+<<<<<<< HEAD
 </details>
 
+=======
+
+</details>
+>>>>>>> all_content_add
 
 ## <a name="links">🔗 Assets</a>
 
@@ -667,10 +715,13 @@ Assets used in the project can be found [here](https://drive.google.com/file/d/1
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
+<<<<<<< HEAD
 <a href="https://jsmastery.pro/next14" target="_blank">
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
 </a>
 
+=======
+>>>>>>> all_content_add
 <br />
 <br />
 
@@ -678,8 +729,13 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 
 And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
 
+<<<<<<< HEAD
 <a href="https://www.jsmastery.pro/masterclass" target="_blank">
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
 </a>
 
 #
+=======
+#a web site to copy from It:
+https://www.axeserp.com/
+>>>>>>> all_content_add
