@@ -5,11 +5,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
-<<<<<<< HEAD
-
-=======
 import Image from "next/image";
->>>>>>> all_content_add
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -94,17 +90,11 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-<<<<<<< HEAD
-            <img
-              src={img}
-              alt={img}
-=======
             <Image
               src={img}
               alt={img}
               width={128}
               height={128}
->>>>>>> all_content_add
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
@@ -115,18 +105,11 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
-<<<<<<< HEAD
-            <img
-              src={spareImg}
-              alt={spareImg}
-              //   width={220}
-=======
             <Image
               src={spareImg}
               alt={spareImg}
               width={128}
               height={128}
->>>>>>> all_content_add
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -200,14 +183,10 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-<<<<<<< HEAD
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
-=======
                 {/* <Image src="/confetti.gif" 
                     width={20}
                     height={20} 
                     alt="confetti" /> */}
->>>>>>> all_content_add
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 

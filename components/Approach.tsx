@@ -7,27 +7,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-<<<<<<< HEAD
-        My <span className="text-purple">approach</span>
-=======
         Mon <span className="text-purple">Approche</span>
->>>>>>> all_content_add
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-<<<<<<< HEAD
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
-=======
           title="Planification Stratégie"
           icon={<AceternityIcon order="1er Étape" />}
           des="Nous travaillerons ensemble pour définir les objectifs, le public cible et les fonctionnalités essentielles de votre site Web ou application Web. Nous aborderons des aspects tels que la structure du site, la navigation et les exigences en matière de contenu. Vous aurez également la possibilité de choisir une solution pré-développée adaptée à vos besoins spécifiques."
->>>>>>> all_content_add
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -36,17 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-<<<<<<< HEAD
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
-=======
           title="Développement Personnalisation Mise à jour"
           icon={<AceternityIcon order="2ᵉ Étape" />}
           des="Une fois que nous sommes d'accord sur le plan, je lance ma playlist lofi et je me lance dans le codage. Des croquis initiaux au code peaufiné, je vous tiens au courant à chaque étape du processus."
->>>>>>> all_content_add
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -64,18 +44,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-<<<<<<< HEAD
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
-=======
           title="Progrès Formation Lancement"
           icon={<AceternityIcon order="3ᵉ Étape" />}
           des="C'est ici que la magie opère ! Sur la base de la conception approuvée, 
           je traduirai le tout en code fonctionnel, en construisant votre site Web à partir de zéro."
->>>>>>> all_content_add
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -155,11 +127,7 @@ const Card = ({
         </h2>
         {/* add this one for the description */}
         <p
-<<<<<<< HEAD
-          className="text-sm opacity-0 group-hover/canvas-card:opacity-100
-=======
           className="text-base opacity-0 group-hover/canvas-card:opacity-100
->>>>>>> all_content_add
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
          group-hover/canvas-card:-translate-y-2 transition duration-200"
           style={{ color: "#E4ECFF" }}

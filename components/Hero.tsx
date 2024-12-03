@@ -56,12 +56,6 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-<<<<<<< HEAD
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Salut! je suis Iheb Zmerli, un Développeur Full Stack et
-            Freelanceur.
-          </p>
-=======
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
             Salut! je suis Iheb Zmerli, un Développeur Full Stack et
             Freelanceur.
@@ -75,7 +69,6 @@ const Hero = () => {
             <span className="text-purple font-semibold"> Desktop </span>
             sur plusieurs API.
           </p>
->>>>>>> all_content_add
 
           <a href="#about">
             <MagicButton

@@ -11,11 +11,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-<<<<<<< HEAD
-      "Je privilégie la collaboration et la communication ouverte avec les clients.",
-=======
       "Je Privilégie La Collaboration Et La Communication Ouverte Avec Les Clients.",
->>>>>>> all_content_add
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -26,11 +22,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-<<<<<<< HEAD
-      "Je m'adapte facilement aux différents fuseaux horaires et aux lieux de travail.",
-=======
       "Je m'adapte Aisément À Divers Fuseaux Horaires Et Environnements De Travail.",
->>>>>>> all_content_add
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
@@ -100,13 +92,8 @@ export const gridItems = [
   },
   {
     id: 10,
-<<<<<<< HEAD
-    title: "Meilleure qualité de code pour un futur évolutif",
-    description: "Meilleures modélisations",
-=======
     title: "Meilleure Qualité De Code Pour Un Futur Évolutif",
     description: "Meilleures Modélisations",
->>>>>>> all_content_add
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -149,45 +136,6 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-<<<<<<< HEAD
-    title: "Application « Stocks-IT »",
-    des: "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante utilisant Angular et Spring Boot.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Application « Réservatory »",
-    des: "Simplifiez votre expérience de réservation. Entraînez-vous à la salle de sport avec des collègues et des amis.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "Application « Payment-Stack »",
-    des: "Une VRAIE application Software-as-a-Service avec des fonctionnalités d'IA et un système de paiements et de crédits utilisant la dernière pile technologique.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Site Web Animé Huawei Pura 70 Ultra 3D",
-    des: "Recréation du site Web du HUAWEI Pura 70 Ultra, combinant des animations GSAP et des effets 3D Three.js.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
-  {
-    id: 4,
-    title: "Site Web Animé Huawei Pura 70 Ultra 3D",
-    des: "Recréation du site Web du HUAWEI Pura 70 Ultra, combinant des animations GSAP et des effets 3D Three.js.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-=======
     title: "Application « De Facturation Pour Les Petites Entreprises »",
     des: "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante. Gérez vos factures et paiements, projets et tâches, dépenses et fournisseurs.",
     img: "/accounting-financial-main.svg",
@@ -261,7 +209,6 @@ export const projects = [
     ],
     linkName: "CSPV UTICA",
     linkProject: "http://cspv.tn/",
->>>>>>> all_content_add
   },
 ];
 
@@ -299,19 +246,12 @@ export const testimonials = [
   {
     quote:
       "Du début du projet jusqu'à son achèvement, Iheb nous a accompagné et a dépassé nos attentes à tous points de vue. Non seulement notre expérience a été personnelle et amicale, mais sa capacité à identifier et à présenter nos messages clés de manière imaginative et créative nous a donné une énorme confiance en lui.",
-<<<<<<< HEAD
-    name: "feres FOUDHAILI",
-    title: "Cloud Solution Architect",
-=======
     name: "Feres FOUDHAILI",
     title: "Architecte De Solutions Cloud",
->>>>>>> all_content_add
     image_profil: "/Feres-FOUDHAILI.png",
   },
 ];
 
-<<<<<<< HEAD
-=======
 export const programmer_skills = [
   {
     id: 1,
@@ -501,60 +441,44 @@ export const know_some_skills = [
   },
 ];
 
->>>>>>> all_content_add
 export const companies = [
   {
     id: 1,
     name: "cloudinary",
-<<<<<<< HEAD
-=======
     designation: "",
     image: "/cloud.svg",
->>>>>>> all_content_add
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-<<<<<<< HEAD
-=======
     designation: "",
     image: "/app.svg",
->>>>>>> all_content_add
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-<<<<<<< HEAD
-=======
     designation: "",
     image: "/host.svg",
->>>>>>> all_content_add
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-<<<<<<< HEAD
-=======
     designation: "",
     image: "/s.svg",
->>>>>>> all_content_add
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-<<<<<<< HEAD
-=======
     designation: "",
     image: "/dock.svg",
->>>>>>> all_content_add
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
@@ -564,15 +488,9 @@ export const workExperience = [
   {
     id: 1,
     title: "Développeur principal - CFAC",
-<<<<<<< HEAD
-    desc: "Responsable sur le développement de trois applications web en utilisant PHP, React, Spring Boot en améliorant l'interactivité.",
-    tasks_desc:
-      "Développer une application web de facturation, paiements, suivi des dépenses, tâches facturables, les opérations financières, l'envoi des factures, la réception de paiements et le suivi des performances pour toutes les 11 entreprises.",
-=======
     desc: "Responsable sur le développement de cinq applications web en améliorant l'interactivité.",
     tasks_desc:
       "Développer une application web de facturation, la réception de paiements, suivi des dépenses, tâches facturables,  pour toutes les 11 entreprises.",
->>>>>>> all_content_add
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -627,16 +545,6 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-<<<<<<< HEAD
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-=======
     link: "https://github.com/ihebzmerli",
   },
   {
@@ -648,6 +556,5 @@ export const socialMedia = [
     id: 3,
     img: "/linkedin.svg",
     link: "https://linkedin.com/Zmerli Iheb",
->>>>>>> all_content_add
   },
 ];

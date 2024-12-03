@@ -1,9 +1,5 @@
 "use client";
-<<<<<<< HEAD
-
-=======
 import Image from "next/image";
->>>>>>> all_content_add
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
@@ -121,16 +117,12 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-<<<<<<< HEAD
-                  <img src={item.image_profil} alt="profile" />
-=======
                   <Image
                     src={item.image_profil}
                     width={20}
                     height={20}
                     alt="profile"
                   />
->>>>>>> all_content_add
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
