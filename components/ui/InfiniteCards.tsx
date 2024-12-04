@@ -119,8 +119,8 @@ export const InfiniteMovingCards = ({
                 <div className="me-3">
                   <Image
                     src={item.image_profil}
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                     alt="profile"
                   />
                 </div>

@@ -24,7 +24,7 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <Image src="/bg.png" width={20} height={20} alt="bgimg" />
+                  <Image src="/bg.png" width={1000} height={1000} alt="bgimg" />
                 </div>
                 {/* 
                 <Image
@@ -38,8 +38,8 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt="blog thumbnail"
-                  width={20}
-                  height={20}
+                  width={500}
+                  height={500}
                   className="rounded-lg mb-10 object-cover absolute z-10 p-3 m-10"
                 />
               </div>
@@ -71,8 +71,8 @@ const RecentProjects = () => {
                       <Image
                         src={icon}
                         alt="icon5"
-                        width={20}
-                        height={20}
+                        width={500}
+                        height={500}
                         className="p-1"
                       />
                     </div>
