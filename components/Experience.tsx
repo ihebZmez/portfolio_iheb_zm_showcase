@@ -1,15 +1,41 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion"; // Add this import
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
+  const openPDF = () => {
+    // your PDFs is in the public/doc folder
+    // window.open("/doc/2025_Iheb_Zmerli_Glob_ang_cv.pdf", "_blank");  // option for cv langue
+    window.open("/doc/2025_Iheb_Zmerli_Glob_fr_cv.pdf", "_blank");
+  };
+
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
         Mon <span className="text-purple">experience professionnelle</span>
       </h1>
+      <p className="text-center pt-14 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+        Si vous souhaitez voir plus de détails, comme un CV{" "}
+        <motion.span
+          className="text-purple cursor-pointer"
+          onClick={openPDF}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          animate={{
+            y: ["0%", "-25%", "0%"],
+          }}
+          transition={{
+            duration: 1.5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        >
+          CLIQUE ICI
+        </motion.span>
+      </p>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (

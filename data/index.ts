@@ -210,6 +210,36 @@ export const projects = [
     linkName: "CSPV UTICA",
     linkProject: "http://cspv.tn/",
   },
+  {
+    id: 6,
+    title: "Application « Gestion des Expéditions, Livraisons et Commandes »",
+    des: "Optimisez votre logistique avec notre application innovante. Suivez vos expéditions en temps réel, gérez vos livraisons efficacement et surveillez vos commandes depuis une interface conviviale.",
+    img: "/project_display/gestion_livraisons_expedition.png",
+    iconLists: [
+      "/Tech/react-icon.svg",
+      "/Tech/nodejs-icon.svg",
+      "/Tech/postgresql-icon.svg",
+      "/Tech/tailwindcss-icon-svgrepo-com.svg",
+      "/Tech/docker-icon.svg",
+    ],
+    linkName: "LogistiTrack",
+    linkProject: "http://logistitrack.cfacgroup.com/login",
+  },
+  {
+    id: 7,
+    title: "Application « de réservation »",
+    des: "Application permettant de réserver des séances dans la salle de sport de '4fit bardo' pour minimiser les frais.",
+    img: "/project_display/gestion_fitness appointment.png",
+    iconLists: [
+      "/Tech/react-icon.svg",
+      "/Tech/nodejs-icon.svg",
+      "/Tech/postgresql-icon.svg",
+      "/Tech/tailwindcss-icon-svgrepo-com.svg",
+      "/Tech/docker-icon.svg",
+    ],
+    linkName: "LogistiTrack",
+    linkProject: "http://logistitrack.cfacgroup.com/login",
+  },
 ];
 
 export const testimonials = [
@@ -239,9 +269,9 @@ export const testimonials = [
   {
     quote:
       "Personnel jeune et dynamique, toujours ponctuel, accueillant et doté d'une grande empathie pour identifier et anticiper les difficultés, en proposant systématiquement des alternatives concrètes. - Marchetto Giovanni & Pollani Liberto, Directeur de l'usine et Avocat général d'Elettro BCA.",
-    name: "Sadok BEN YEDDER",
-    title: "CEO Groupe CAFÉ",
-    image_profil: "/Sadok-BEN-YEDDER.png",
+    name: "Karem BELKHIRIA",
+    title: "Chef d'entreprise - domotech",
+    image_profil: "/Karem-BELKHIRIA.png",
   },
   {
     quote:
@@ -545,16 +575,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/ihebzmerli",
+    link: "https://github.com/ihebZmez",
   },
   {
     id: 2,
     img: "/x-icon.svg",
-    link: "https://x.com/?lang=fr",
+    link: "https://x.com/IhebZmerli",
   },
   {
     id: 3,
     img: "/linkedin.svg",
-    link: "https://linkedin.com/Zmerli Iheb",
+    link: "https://www.linkedin.com/in/zmerli-i-5499b3110/",
   },
 ];
