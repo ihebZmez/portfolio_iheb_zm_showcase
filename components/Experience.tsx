@@ -68,11 +68,18 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start text-white-100 md:text-lg mt-3 font-semibold">
                   {card.desc}
                 </p>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.tasks_desc}
+                <p className="text-start text-yellow-600 md:text-base mt-3 font-semibold">
+                  {card.tasks_desc.split(" | ").map((task, index, array) => (
+                    <React.Fragment key={index}>
+                      {task}
+                      {index < array.length - 1 && (
+                        <span className="text-white"> | </span>
+                      )}
+                    </React.Fragment>
+                  ))}
                 </p>
               </div>
             </div>

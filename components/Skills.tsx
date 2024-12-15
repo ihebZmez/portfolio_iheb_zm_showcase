@@ -13,64 +13,63 @@ import { AnimatedTooltip } from "./ui/AnimatedTooltip";
 
 const Skills = () => {
   return (
-    <section id="testimonials" className="py-20">
-      <h1 className="heading">
+    <section id="testimonials" className="py-10 md:py-20">
+      <h1 className="heading text-2xl md:text-3xl lg:text-4xl mb-8">
         MES <span className="text-purple">Compétences</span>
       </h1>
 
-      <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
-          className="h-[50vh] md:h-[35rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-        >
-          {/* Known FrameWork */}
-          <div className="pb-10 pt-11 px-2 w-full">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-              <h4 className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
+      <div className="flex flex-col items-center w-full">
+        <div className="w-full min-h-[500px] md:min-h-[600px] px-4 md:px-6 rounded-md flex flex-col items-center justify-center gap-6 md:gap-8">
+          {/* Skills Categories Container */}
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Framework Skills */}
+            <div className="skill-category">
+              <h4 className="skill-heading">
                 Outils de <span className="text-purple">Framework</span>
               </h4>
-              <AnimatedTooltip items={framework_skills} />
+              <div className="skill-content">
+                <AnimatedTooltip items={framework_skills} />
+              </div>
             </div>
-          </div>
 
-          {/* Known Programme */}
-          <div className="pb-5 px-2 w-full">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-              <h4 className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
+            {/* Programming Languages */}
+            <div className="skill-category">
+              <h4 className="skill-heading">
                 Langage de <span className="text-purple">Programmation</span>
               </h4>
-              <AnimatedTooltip items={programmer_skills} />
+              <div className="skill-content">
+                <AnimatedTooltip items={programmer_skills} />
+              </div>
             </div>
-          </div>
 
-          {/* Known Technologie */}
-          <div className="pb-5 px-2 w-full">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-              <h4 className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
+            {/* Technologies */}
+            <div className="skill-category">
+              <h4 className="skill-heading">
                 Mes <span className="text-purple">Connaissances</span>
               </h4>
-              <AnimatedTooltip items={know_some_skills} />
+              <div className="skill-content">
+                <AnimatedTooltip items={know_some_skills} />
+              </div>
             </div>
-          </div>
 
-          {/* Known DataBases */}
-          <div className="pb-5 px-2 w-full">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-              <h4 className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
+            {/* Databases */}
+            <div className="skill-category">
+              <h4 className="skill-heading">
                 Bases de <span className="text-purple">Données</span>
               </h4>
-              <AnimatedTooltip items={database_skills} />
+              <div className="skill-content">
+                <AnimatedTooltip items={database_skills} />
+              </div>
             </div>
-          </div>
 
-          {/* Known Tools */}
-          <div className="pb-10 px-2 w-full">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-              <h4 className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
-                Gestion
-                <span className="text-purple">Dépendances</span>
+            {/* Tools */}
+            <div className="skill-category">
+              <h4 className="skill-heading">
+                Gestion <span className="text-purple">Dépendances</span>
               </h4>
-              <AnimatedTooltip items={tools_on_skills} />
+              <div className="skill-content">
+                <AnimatedTooltip items={tools_on_skills} />
+              </div>
             </div>
           </div>
         </div>

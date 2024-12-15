@@ -518,54 +518,54 @@ export const workExperience = [
   {
     id: 1,
     title: "Développeur principal - CFAC",
-    desc: "Responsable sur le développement de cinq applications web en améliorant l'interactivité.",
+    desc: "Responsable de développement et déploiement de six applications web majeures :",
     tasks_desc:
-      "Développer une application web de facturation, la réception de paiements, suivi des dépenses, tâches facturables,  pour toutes les 11 entreprises.",
+      "Gestion Financière | Ressources Humaines | Portail d'Accès | Site Web Institutionnel | Application De Gestion Juridique | Système De Gestion Des Tickets.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Secrétaire Général - CSPV - UTICA",
-    desc: "Responsable sur le développement, le désigne et la mise à jour de site web en utilisant WordPress et Photoshop ainsi la commercialisation.",
+    desc: "Responsable sur le développement, le désigne et la mise à jour de site web :",
     tasks_desc:
-      "Aide au développement d'une plate-forme Web, transmettre les courriers et les e-mails et la responsabilité administrative et financière améliorant l'interactivité.",
+      "Développement Web Avec WordPress | Gestion Administrative Et Financière | Communication et Marketing Digital.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Projet de développement d'applications indépendant",
-    desc: "Développer un site WordPress pour une agence de communication.",
+    title: "Développeur Web Indépendant - Projet Freelance",
+    desc: "Responsable d'un site personnalisé pour une agence de communication :",
     tasks_desc:
-      "Choisir un thème, Personnaliser le design, Intégrer du contenu, Hébergement, Google analytique, moteurs de recherche",
+      "Personnaliser Le Design | Intégration Du Contenu | Hébergement | Google Analytique | Moteurs De Recherche",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Projet de développement d'applications indépendant",
-    desc: "Développer un site pour la publicité, la réservation de chalets, de terrains de camping et de randonnées pour toutes les saisons de l'année au Canada.",
+    desc: "Particiapation dans un site pour la publicité et la réservation de chalets, de camping et de randonnées pour les saisons de l'année au Canada.",
     tasks_desc:
-      "Choix de la plateforme et du domaine, Conception de l'architecture, développement du site, Intégration de fonctionnalités supplémentaires, Mise en place la gestion des réservations.",
+      "Platform Selection | Architecture Design | Site Development | Feature Integration | Reservation System Implementation",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 5,
     title: "Projet de développement d'applications indépendant",
-    desc: "Développer mon site Web Next.js. Mettre en place les animations, contenu de site, les notifications par la section de contact.",
+    desc: "Responsable mon site Web Mettre en place les animations, contenu de site, les notifications par la section de contact.",
     tasks_desc:
-      "À l'aide de Next.js, React.js, Three.js, Framer Motion, Tailwind CSS et Figma, je développe des sites web innovants et performants. En utilisant les meilleures pratiques et technologies pour offrir une expérience utilisateur exceptionnelle.",
+      "Next.js | React.js | Three.js | Framer Motion | Tailwind CSS | Figma | Innovants Et Performants | Pratiques Et Technologies UI/UX",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 6,
     title: "Développeur Full Stack - Arem Group",
-    desc: "Aide au développement d'une application de gestion de stocks. Qu'elle permet de Manipuler (les articles, les bons de livraison, les expéditions...)",
+    desc: "Aidée au développement d'une application de gestion de stocks. Qu'elle permet de Manipuler (les articles, les bons de livraison, les expéditions...)",
     tasks_desc:
-      "Développement d'une partie du cycle interne d'une plateforme web utilisant Spring Boot, Angular, ainsi que la modélisation UML.",
+      "Cycle Interne des Articles | Les Bons De Livraison | Les Expéditions | Spring-Boot | Angular | Modélisation UML",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
