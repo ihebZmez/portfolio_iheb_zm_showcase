@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div id="projects" className="py-20">
       <h1 className="heading">
         Une Petite Sélection De{" "}
         <span className="text-purple">Projets Récents</span>
@@ -38,8 +38,8 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt="blog thumbnail"
-                  width={500}
-                  height={500}
+                  width={350}
+                  height={350}
                   className="rounded-lg mb-10 object-cover absolute z-10 p-3 m-10"
                 />
               </div>
@@ -49,7 +49,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-5"
+                className="lg:text-sm lg:font-normal font-light text-sm line-clamp-5"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",

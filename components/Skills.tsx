@@ -13,7 +13,7 @@ import { AnimatedTooltip } from "./ui/AnimatedTooltip";
 
 const Skills = () => {
   return (
-    <section id="testimonials" className="py-10 md:py-20">
+    <section id="skills" className="py-10 md:py-20">
       <h1 className="heading text-2xl md:text-3xl lg:text-4xl mb-8">
         MES <span className="text-purple">Compétences</span>
       </h1>

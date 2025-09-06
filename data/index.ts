@@ -2,9 +2,56 @@ export const navItems = [
   { name: "Accueil", link: "#" },
   { name: "À Propos", link: "#about" },
   { name: "Projets", link: "#projects" },
-  { name: "Compétences", link: "#projects" },
+  { name: "Compétences", link: "#skills" },
   { name: "Témoignages", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+];
+
+export const gridServicesItems = [
+  {
+    id: 1,
+    title: "Facturation & Comptabilité",
+    description:
+      "Application tout-en-un pour factures, devis, conventions, paiements et gestion clients avec reporting automatisé en Tunisie.",
+    className: "",
+    titleClassName: "text-center",
+    headingLevel: "h1" as const,
+    metaDescription:
+      "Logiciel de facturation et comptabilité en Tunisie : factures, devis, conventions, paiements, gestion clients et reporting automatisé pour entreprises tunisiennes.",
+  },
+  {
+    id: 2,
+    title: "Ticketing & Gestion IT",
+    description:
+      "Application de gestion des demandes clients et processus internes avec notifications agents, suivi des fichiers et inventaire organisationnel en Tunisie.",
+    className: "",
+    titleClassName: "text-center",
+    headingLevel: "h1" as const,
+    metaDescription:
+      "Logiciel de ticketing en Tunisie pour gérer les demandes clients, automatiser les processus, notifier les agents, suivre les fichiers et assurer l'audit et l'inventaire IT.",
+  },
+  {
+    id: 3,
+    title: "Site Web Professionnel",
+    description:
+      "Création de sites vitrines pour cabinets de comptabilité, RH, audit et juridique afin d'améliorer visibilité et attirer de nouveaux clients en Tunisie.",
+    className: "",
+    titleClassName: "text-center",
+    headingLevel: "h1" as const,
+    metaDescription:
+      "Agence web en Tunisie spécialisée dans la création de sites pour cabinets d'expertise comptable, RH, audit et juridique. Augmentez votre visibilité et développez votre clientèle.",
+  },
+  {
+    id: 4,
+    title: "Logiciel RH",
+    description:
+      "Solution RH pour gérer employés, congés, paie et performance avec automatisation et reporting en Tunisie.",
+    className: "",
+    titleClassName: "text-center",
+    headingLevel: "h1" as const,
+    metaDescription:
+      "Logiciel RH en Tunisie : gestion des employés, suivi des congés, paie, performance et automatisation des processus RH pour entreprises tunisiennes.",
+  },
 ];
 
 export const gridItems = [
@@ -147,10 +194,25 @@ export const projects = [
       "/Tech/github-icon.svg",
     ],
     linkName: "Invoice Pro",
-    linkProject: "http://invoicepro.cfacgroup.com/login",
+    linkProject: "http://invoice.cfacgroup.com:8848/login",
   },
   {
     id: 2,
+    title: "Application MyCPAC « Gestion de la comptabilité, RH et Audit »",
+    des: "Toutes les fonctionnalités automatisées en une seule et unique application pour la comptabilité générale, paie, déclaration CNSS, liasse fiscale, immobilisation, déclaration employeur et états financiers.",
+    img: "/project_display/processus-fiscal-audit-concept-comptable.jpg",
+    iconLists: [
+      "/Tech/spring-icon.svg",
+      "/Tech/angular-icon.svg",
+      "/Tech/postgresql-icon.svg",
+      "/Tech/intellij-idea-icon.svg",
+      "/Tech/Liquibase-icon.svg",
+    ],
+    linkName: "Espace Client",
+    linkProject: "https://espaceclient.cfacgroup.com/",
+  },
+  {
+    id: 3,
     title: "Application « Gestion de services et d'assistance »",
     des: "Application web entièrement paramétrable,d'un système d'assistance et d'un outil des documentaire, Gestion Services & Contrats, Automatisation, Synchronisation des données, Rapports",
     img: "/project_display/CRM-workflow-pro.jpg",
@@ -162,11 +224,10 @@ export const projects = [
       "/Tech/mysql-icon.svg",
     ],
     linkName: "WorkFlow Pro",
-    linkProject:
-      "http://espaceclient.cfacgroup.com/cfac_workflow_pro/pages/UI.php",
+    linkProject: "http://http://workflow.cfacgroup.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Application « Daaquam Monentre Prisevirtuelle Canada »",
     des: "site pour la publicité, la réservation de chalets, de terrains de camping et de randonnées pour toutes les saisons de l'année au Canada. Conception et Intégration des fonctionnalités,Mise en place des réservations",
     img: "/project_display/daaquam.png",
@@ -178,10 +239,11 @@ export const projects = [
       "/Tech/css-icon.svg",
     ],
     linkName: "Daaquam Canada",
-    linkProject: "https://daaquam.monentreprisevirtuelle.com/",
+    linkProject2: "https://daaquam.monentreprisevirtuelle.com/",
+    linkProject: "https://daaquam.qc.ca/",
   },
   {
-    id: 4,
+    id: 5,
     title: "site « WordPress pour une agence de communication »",
     des: "Développer un site Freelance WordPress pour une agence de communication au Canada. Personnaliser le design, le thème et Intégrer du contenu, mettre les animations...",
     img: "/project_display/communication-agency-icon.jpg",
@@ -196,9 +258,9 @@ export const projects = [
     linkProject: "https://anniejanelle.monentreprisevirtuelle.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "« Chambre Syndicale des Producteurs de Photovoltaïque (CSPV) »",
-    des: "Corriger et optimiser le site web pour ce groupe qui prend en charge l'organisation des événements et l'accompagnement. Promouvoir l'adhésion de nouveaux membres et mener des actions marketing pour informer les Tunisiens des avantages de l'installation de systèmes photovoltaïques.",
+    des: "Corriger et optimiser le site web pour ce groupe qui prend en charge l'organisation des événements. Promouvoir l'adhésion de nouveaux membres et mener des actions marketing pour informer les Tunisiens des avantages de l'installation photovoltaïques.",
     img: "/project_display/photovoltaique-cspv.jpg",
     iconLists: [
       "/Tech/wordpress-icon.svg",
@@ -211,7 +273,7 @@ export const projects = [
     linkProject: "http://cspv.tn/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Application « Gestion des Expéditions, Livraisons et Commandes »",
     des: "Optimisez votre logistique avec notre application innovante. Suivez vos expéditions en temps réel, gérez vos livraisons efficacement et surveillez vos commandes depuis une interface conviviale.",
     img: "/project_display/gestion_livraisons_expedition.png",
@@ -226,9 +288,9 @@ export const projects = [
     linkProject: "http://logistitrack.cfacgroup.com/login",
   },
   {
-    id: 7,
-    title: "Application « de réservation »",
-    des: "Application permettant de réserver des séances dans la salle de sport de '4fit bardo' pour minimiser les frais.",
+    id: 8,
+    title: "Application « Gestion de réservation salle de sport »",
+    des: "Application permettant de réserver des séances pour toutes les activités dans la salle de sport de '4fit bardo' dans la période de covid pour organiser la participation des personnes et minimiser les frais.",
     img: "/project_display/gestion_fitness appointment.png",
     iconLists: [
       "/Tech/react-icon.svg",
@@ -409,6 +471,12 @@ export const database_skills = [
     designation: "",
     image: "/Tech/postgresql-icon.svg",
   },
+  {
+    id: 5,
+    name: "Liquibase",
+    designation: "",
+    image: "/Tech/Liquibase-icon.svg",
+  },
 ];
 
 export const tools_on_skills = [
@@ -517,6 +585,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Développeur Full Stack - AXEAN",
+    desc: "Conception de solutions automatisées pour l’intégration des relevés bancaires, sécurisation d’un portail dédié aux salariés pour le suivi des bulletins de paie et la gestion des absences.",
+    tasks_desc:
+      "Ressources Humaines | Portail d'Accès | Controle des role et des permission.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
     title: "Développeur principal - CFAC",
     desc: "Responsable de développement et déploiement de six applications web majeures :",
     tasks_desc:
@@ -525,7 +602,7 @@ export const workExperience = [
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Secrétaire Général - CSPV - UTICA",
     desc: "Responsable sur le développement, le désigne et la mise à jour de site web :",
     tasks_desc:
@@ -534,34 +611,34 @@ export const workExperience = [
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Développeur Web Indépendant - Projet Freelance",
     desc: "Responsable d'un site personnalisé pour une agence de communication :",
     tasks_desc:
       "Personnaliser Le Design | Intégration Du Contenu | Hébergement | Google Analytique | Moteurs De Recherche",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp5.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Projet de développement d'applications indépendant",
     desc: "Particiapation dans un site pour la publicité et la réservation de chalets, de camping et de randonnées pour les saisons de l'année au Canada.",
     tasks_desc:
       "Platform Selection | Architecture Design | Site Development | Feature Integration | Reservation System Implementation",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp5.svg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Projet de développement d'applications indépendant",
     desc: "Responsable mon site Web Mettre en place les animations, contenu de site, les notifications par la section de contact.",
     tasks_desc:
       "Next.js | React.js | Three.js | Framer Motion | Tailwind CSS | Figma | Innovants Et Performants | Pratiques Et Technologies UI/UX",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp5.svg",
   },
   {
-    id: 6,
+    id: 7,
     title: "Développeur Full Stack - Arem Group",
     desc: "Aidée au développement d'une application de gestion de stocks. Qu'elle permet de Manipuler (les articles, les bons de livraison, les expéditions...)",
     tasks_desc:
