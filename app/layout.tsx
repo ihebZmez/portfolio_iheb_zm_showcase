@@ -8,8 +8,46 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Iheb'Zm Portfolio",
-  description: "Insane Portfolio",
+  title:
+    "Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie",
+  description:
+    "Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web. Logiciels sur mesure pour entreprises tunisiennes.",
+  keywords:
+    "développeur full stack, Tunisie, comptabilité, facturation, RH, audit, développement web, logiciels, entreprise, digital",
+  authors: [{ name: "Iheb Zmerli" }],
+  creator: "Iheb Zmerli",
+  publisher: "Iheb Zmerli",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_TN",
+    url: "https://portfolio-iheb-zm.vercel.app",
+    title:
+      "Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie",
+    description:
+      "Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web. Logiciels sur mesure pour entreprises tunisiennes.",
+    siteName: "Iheb Zmerli Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie",
+    description:
+      "Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web.",
+  },
+  alternates: {
+    canonical: "https://portfolio-iheb-zm.vercel.app",
+  },
 };
 
 export default function RootLayout({

@@ -11,11 +11,12 @@ const GridServices = () => {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Nos Services
+            Solutions Digitales & Logiciels pour Entreprises Tunisiennes
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Solutions complètes en comptabilité, finance, RH, audit et juridique
-            pour les entreprises tunisiennes
+            Développement de logiciels sur mesure : comptabilité, facturation,
+            RH, audit, ticketing IT et sites web professionnels pour cabinets
+            d&apos;expertise en Tunisie
           </p>
         </div>
         <BentoGridService className="w-full">

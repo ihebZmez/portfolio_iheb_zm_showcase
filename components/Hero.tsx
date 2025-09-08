@@ -51,10 +51,12 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
-          <TextGenerateEffect
-            words="Appliquer Vos Concepts Sans Blocage et en Toute Facilité"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold text-white mb-4">
+            <TextGenerateEffect
+              words="Appliquer Vos Concepts Sans Blocage et en Toute Facilité"
+              className="text-center"
+            />
+          </h1>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
             Salut! je suis Iheb Zmerli, un Développeur Full Stack et
