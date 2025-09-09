@@ -58,6 +58,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta
+          name="google-site-verification"
+          content="MjUjqo5MP1kfsYfRKhF6OTb1f6IOSi_RCgtX_Ls6GSU"
+        />
         <link rel="icon" href="/I-Zm.png" sizes="any" />
       </head>
       <body className={inter.className}>
