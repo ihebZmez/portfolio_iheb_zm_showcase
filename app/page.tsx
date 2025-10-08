@@ -59,9 +59,11 @@ const Home = () => {
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
           <Hero />
-          <GridServices />
+          {/* TODO remove comments if you out of job */}
+          {/* <GridServices /> */}
           <Grid />
-          <RecentProjects />
+          {/* TODO remove comments if you out of job */}
+          {/* <RecentProjects /> */}
           <Clients />
           <Skills />
           <Experience />
