@@ -58,6 +58,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MWGW2FL7BG"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MWGW2FL7BG');
+          `}
+        </Script>
         <meta
           name="google-site-verification"
           content="MjUjqo5MP1kfsYfRKhF6OTb1f6IOSi_RCgtX_Ls6GSU"
