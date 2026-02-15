@@ -9,7 +9,10 @@ const Experience = () => {
   const openPDF = () => {
     // your PDFs is in the public/doc folder
     // window.open("/doc/2025_Iheb_Zmerli_Glob_ang_cv.pdf", "_blank");  // option for cv langue
-    window.open("/doc/2025_Iheb_Zmerli_Glob_fr_cv.pdf", "_blank");
+    window.open(
+      "/doc/Iheb Zmerli – Ang Full Stack Developer Resume.pdf",
+      "_blank"
+    );
   };
 
   return (
