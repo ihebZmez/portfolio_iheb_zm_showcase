@@ -2,18 +2,18 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
-import { projects } from "@/data";
+import { projectsWeb } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
-const RecentProjects = () => {
+const RecentProjectsWeb = () => {
   return (
-    <div id="projects" className="py-20">
+    <div id="projectsWeb" className="py-20">
       <h1 className="heading">
         Une Petite Sélection De{" "}
-        <span className="text-purple">Projets Récents</span>
+        <span className="text-purple">Projets Web</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  items-center justify-center w-full  max-w-9xl mx-auto gap-16 mt-20 p-4">
-        {projects.map((item) => (
+        {projectsWeb.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[30rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
@@ -100,4 +100,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default RecentProjectsWeb;

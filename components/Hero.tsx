@@ -1,5 +1,4 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -7,10 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
+      {/* Spotlights */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -23,18 +19,12 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
-      {/**
-       *  UI: grid
-       *  change bg color to bg-black-100 and reduce grid color from
-       *  0.2 to 0.03
-       */}
+      {/* Grid background */}
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
-        {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -42,39 +32,53 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-150">
-            Vous aider dans votre transformation numérique
+          
+          {/* Tagline */}
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-150 mb-6">
+            Full Stack Developer · Software Engineer · DevOps-Oriented
           </p>
 
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
-          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          {/* Main headline - What do you do? */}
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold text-white mb-6">
             <TextGenerateEffect
-              words="Appliquer Vos Concepts Sans Blocage et en Toute Facilité"
+              words="Je transforme vos idées en applications scalables et performantes"
               className="text-center"
             />
           </h1>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
-            Salut! je suis Iheb Zmerli, un Développeur Full Stack et
-            Freelanceur.
-          </p>
-          <p className="text-center pt-14 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Axé sur les solutions de{" "}
-            <span className="text-purple">création de produits</span> et{" "}
-            <span className="text-purple">services informatique</span>. Conçu et
-            développé des applications{" "}
-            <span className="text-purple font-semibold"> Web </span>ou
-            <span className="text-purple font-semibold"> Desktop </span>
-            sur plusieurs API.
-          </p>
+          {/* Who do you help? + Business problem */}
+          <div className="space-y-4 text-center mb-8">
+            <p className="text-xl md:text-2xl text-gray-300">
+              <span className="text-purple font-semibold">J&apos;accompagne</span> les entrepreneurs, 
+              startups et entreprises SaaS
+            </p>
+            <p className="text-lg md:text-xl text-gray-400">
+              qui subissent des <span className="text-white font-medium">blocages techniques</span>, 
+              des <span className="text-white font-medium">délais dépassés</span> ou des 
+              <span className="text-white font-medium"> architectures non scalables</span>
+            </p>
+          </div>
 
-          <a href="#about">
+          {/* Solution + Trust indicators */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 mb-8 w-full">
+            <p className="text-center text-gray-200 mb-4">
+              Je vous apporte une <span className="text-purple font-semibold">exécution fluide et sans friction</span> 
+              — du concept à la mise en production
+            </p>
+            
+            {/* Trust badges */}
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <span className="px-3 py-1 bg-purple/20 rounded-full text-purple">✅ 5+ ans d&apos;expérience</span>
+              <span className="px-3 py-1 bg-purple/20 rounded-full text-purple">🏦 Finance · Comptabilité · RH</span>
+              <span className="px-3 py-1 bg-purple/20 rounded-full text-purple">🚀 Déploiement DevOps</span>
+              <span className="px-3 py-1 bg-purple/20 rounded-full text-purple">💼 Freelance disponible</span>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <a href="#work">
             <MagicButton
-              title="Montrer mon travail"
+              title="Voir mes réalisations"
               icon={<FaLocationArrow />}
               position="right"
             />

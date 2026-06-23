@@ -14,11 +14,19 @@ import Experience from "@/components/Experience";
 import GridServices from "@/components/GridServices";
 
 // Dynamic imports for components that might use browser APIs
-const Grid = dynamic(() => import("@/components/Grid"), {
+const GridOptions = dynamic(() => import("@/components/GridOptions"), {
   ssr: false,
 });
 
-const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
+const GridPersonel = dynamic(() => import("@/components/GridPersonel"), {
+  ssr: false,
+});
+
+const RecentProjectsSaaS = dynamic(() => import("@/components/RecentProjectsSaaS"), {
+  ssr: false,
+});
+
+const RecentProjectsWeb = dynamic(() => import("@/components/RecentProjectsWeb"), {
   ssr: false,
 });
 
@@ -59,13 +67,15 @@ const Home = () => {
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
           <Hero />
+          <GridPersonel />
           {/* TODO remove comments if you out of job */}
-          {/* <GridServices /> */}
-          <Grid />
+          <GridServices />
           {/* TODO remove comments if you out of job */}
-          {/* <RecentProjects /> */}
-          <Clients />
+          <RecentProjectsSaaS />
+          <RecentProjectsWeb />
           <Skills />
+          <Clients />
+          <GridOptions />
           <Experience />
           <Approach />
           <Footer />
