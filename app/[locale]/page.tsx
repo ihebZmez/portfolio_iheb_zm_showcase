@@ -1,8 +1,10 @@
+// src/app/[locale]/page.tsx
 "use client";
 
 import dynamic from "next/dynamic";
 import { navItems } from "@/data";
 import Head from "next/head";
+import { useLocale, useTranslations } from "next-intl";
 
 // Regular imports for server-safe components
 import Hero from "@/components/Hero";
@@ -46,31 +48,20 @@ const WhatsAppButton = dynamic(
 );
 
 const Home = () => {
+  const locale = useLocale();
+  const t = useTranslations('HomePage');
+
+  // Get the base URL for canonical
+  const baseUrl = "https://portfolio-iheb-zm.vercel.app";
+
   return (
     <>
-      <Head>
-        <title>
-          Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie
-        </title>
-        <meta
-          name="description"
-          content="Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web. Logiciels sur mesure pour entreprises tunisiennes."
-        />
-        <meta
-          name="keywords"
-          content="développeur full stack, Tunisie, comptabilité, facturation, RH, audit, développement web, logiciels, entreprise, digital, portfolio"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://portfolio-iheb-zm.vercel.app" />
-      </Head>
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
           <Hero />
           <GridPersonel />
-          {/* TODO remove comments if you out of job */}
           <GridServices />
-          {/* TODO remove comments if you out of job */}
           <RecentProjectsSaaS />
           <RecentProjectsWeb />
           <Skills />
@@ -82,7 +73,7 @@ const Home = () => {
         </div>
         <WhatsAppButton
           phoneNumber="+21653853155"
-          message="Bonjour ! Je suis intéressé(e) par vos services. Pouvons-nous en discuter?"
+          message={t('whatsappMessage')}
         />
       </main>
     </>

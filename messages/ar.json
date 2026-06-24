@@ -1,0 +1,307 @@
+{
+  "Metadata": {
+    "title": "إيهاب زمرلي - مطور Full Stack وحلول رقمية في تونس",
+    "description": "مطور Full Stack خبير في تونس. حلول المحاسبة، الفوترة، الموارد البشرية، التدقيق وتطوير الويب. برمجيات مخصصة للشركات التونسية."
+  },
+  "HomePage": {
+    "title": "إيهاب زمرلي - مطور Full Stack وحلول رقمية في تونس",
+    "description": "مطور Full Stack خبير في تونس. حلول المحاسبة، الفوترة، الموارد البشرية، التدقيق وتطوير الويب. برمجيات مخصصة للشركات التونسية.",
+    "keywords": "مطور Full Stack، تونس، محاسبة، فوترة، موارد بشرية، تدقيق، تطوير ويب، برمجيات، أعمال، رقمي، محفظة",
+    "whatsappMessage": "مرحباً! أنا مهتم بخدماتك. هل يمكننا مناقشة ذلك؟"
+  },
+  "Hero": {
+    "tagline": "Full Stack Developer · Software Engineer · DevOps-Oriented",
+    "headline": "أحول أفكارك إلى تطبيقات قابلة للتطوير وعالية الأداء",
+    "helpPrefix": "أرافق",
+    "helpTarget": " رواد الأعمال والشركات الناشئة وشركات SaaS",
+    "problemText": "الذين يعانون من ",
+    "problem1": "عراقيل تقنية",
+    "problemText2": "، ",
+    "problem2": "مواعيد نهائية متجاوزة",
+    "problemText3": " أو ",
+    "problem3": " بنى غير قابلة للتطوير",
+    "solutionText": "أقدم لك ",
+    "solutionHighlight": "تنفيذاً سلساً وخالياً من الاحتكاك",
+    "solutionSuffix": " — من المفهوم إلى الإنتاج",
+    "badge1": "✅ خبرة 5+ سنوات",
+    "badge2": "🏦 مالية · محاسبة · موارد بشرية",
+    "badge3": "🚀 نشر DevOps",
+    "badge4": "💼 مستقل متاح",
+    "cta": "اطلع على إنجازاتي"
+  },
+  "Navigation": {
+    "home": "الرئيسية",
+    "about": "من أنا",
+    "services": "الخدمات",
+    "projectsSaaS": "مشاريع SaaS",
+    "projectsWeb": "مشاريع الويب",
+    "skills": "المهارات",
+    "testimonials": "الشهادات",
+    "nicheBusiness": "الأعمال المتخصصة",
+    "journey": "المسيرة",
+    "approach": "المنهجية",
+    "contact": "اتصل بي"
+  },
+  "GridServices": {
+    "webDevelopment": {
+      "title": "تطوير الويب",
+      "sections": {
+        "introduction": "الموقع الإلكتروني هو واجهتك الرقمية التي تمثل نشاطك التجاري على مدار الساعة.",
+        "types": "صفحة هبوط، موقع تعريفي، موقع أعمال، محفظة أعمال احترافية.",
+        "advantages": "يحسن ظهورك ويحول الزوار إلى عملاء.",
+        "responsive": "متوافق مع الهواتف والأجهزة اللوحية وأجهزة الكمبيوتر المكتبية مع أداء محسن."
+      }
+    },
+    "ecommerce": {
+      "title": "التجارة الإلكترونية",
+      "sections": {
+        "introduction": "متجر إلكتروني يتيح لك بيع منتجاتك على مدار الساعة.",
+        "features": "سلة التسوق، دفع آمن، إدارة المنتجات والطلبات.",
+        "advantages": "يزيد مبيعاتك دون حدود جغرافية."
+      }
+    },
+    "saas": {
+      "title": "منصات SaaS والتكامل",
+      "sections": {
+        "introduction": "منصة SaaS تمكنك من تركيز عمليات عملك في تطبيق قابل للوصول عبر الإنترنت، قابل للتطوير وآمن.",
+        "features": "إدارة المستخدمين، أتمتة سير العمل، لوحات المعلومات، واجهات برمجة التطبيقات، إدارة البيانات ووحدات الأعمال المخصصة.",
+        "integrations": "الاتصال بأنظمتك الحالية، مزامنة البيانات، أتمتة الخدمات، وقابلية التشغيل البيني لأدوات الأعمال.",
+        "advantages": "تقليل المهام اليدوية، رؤية مركزية للنشاط، تحسين اتخاذ القرار، قابلية عالية للتوسع."
+      }
+    },
+    "maintenance": {
+      "title": "صيانة المواقع",
+      "sections": {
+        "introduction": "ضمان استقرار وأمان موقعك بشكل مستمر.",
+        "services": "التحديثات، إصلاح الأخطاء، تحسين الأداء.",
+        "importance": "الموقع غير المصان يفقد الأمان والأداء."
+      }
+    },
+    "hosting": {
+      "title": "الاستضافة والنشر",
+      "sections": {
+        "introduction": "نشر تطبيقك على الإنترنت بشكل آمن.",
+        "infrastructure": "الخوادم، النطاقات، SSL وتكوين السحابة.",
+        "performance": "تحسين السرعة والتوفر على مدار الساعة."
+      }
+    },
+    "n8n": {
+      "title": "منصة أتمتة n8n",
+      "sections": {
+        "overview": "n8n أداة قوية لأتمتة سير العمل تتيح تكامل سلس بين التطبيقات والخدمات وواجهات برمجة التطبيقات من خلال واجهة مرئية بديهية.",
+        "workflow": "إنشاء ونشر وإدارة سير عمل آلي يربط أكثر من 400 تطبيق. من نقل البيانات البسيط إلى تنسيق منطق الأعمال المعقد.",
+        "deployment": "• استضافة ذاتية (Docker, npm)\n• n8n.cloud (SaaS)\n• مؤسسي (داخلي/افتراضي)\n• مدمج في تطبيقاتك"
+      }
+    }
+  },
+  "GridPersonel": {
+    "communication": "تواصل واضح وحلول مصممة خصيصاً لأهدافك.",
+    "timezone": "تكيف سريع مع المناطق الزمنية والبيئات الدولية."
+  },
+  "GridOptions": {
+    "finance": "المالية والمحاسبة",
+    "skills": "المهارات والخبرات",
+    "price": "أفضل سعر في سوق التكنولوجيا",
+    "administration": "الإدارة والتنظيم",
+    "security": "تكنولوجيا المعلومات والأمن",
+    "formulate": "صياغة وتطوير",
+    "quality": "أفضل جودة كود لمستقبل متطور",
+    "modeling": "أفضل النمذجة",
+    "sales": "المبيعات والتسويق",
+    "help": "دعني أساعدك في تحقيق مشاريعك",
+    "contact": "كيفية التواصل معي",
+    "tools": "أدوات متنوعة"
+  },
+  "ProjectsSaaS": {
+    "invoice": {
+      "title": "تطبيق الفوترة للشركات الصغيرة",
+      "description": "استكشف عجائب نظام إدارة المخزون لدينا مع هذا الحل الجذاب. إدارة الفواتير والمدفوعات والمشاريع والمهام والنفقات والموردين."
+    },
+    "mycpac": {
+      "title": "تطبيق MyCPAC - إدارة المحاسبة والموارد البشرية والتدقيق",
+      "description": "جميع الميزات الآلية في تطبيق واحد للمحاسبة العامة والرواتب وإعلان CNSS والإقرار الضريبي والأصول الثابتة وإعلان صاحب العمل والقوائم المالية."
+    },
+    "workflow": {
+      "title": "تطبيق إدارة الخدمات والدعم",
+      "description": "تطبيق ويب قابل للتكوين بالكامل مع نظام دعم وأداة توثيق، إدارة الخدمات والعقود، الأتمتة، مزامنة البيانات، التقارير."
+    },
+    "axeane": {
+      "title": "تطبيق المحاسبة والرواتب",
+      "description": "تطبيق شامل لإدارة المحاسبة والرواتب تم تطويره لصالح AXEANE. حل متكامل مع بوابة مصادقة متعددة الأدوار، وحدة إدارة الإجازات مع سير عمل الموافقة، أتمتة OCR لكشوف الحسابات البنكية ومحرك حساب الرواتب الذكي، مما يقلل المعالجة اليدوية بمقدار 20 ساعة/شهر بدقة 98.9%."
+    },
+    "logistics": {
+      "title": "تطبيق إدارة الشحنات والتسليم والطلبات",
+      "description": "حسّن خدماتك اللوجستية مع تطبيقنا المبتكر. تتبع شحناتك في الوقت الفعلي، وإدارة عمليات التسليم بكفاءة، ومراقبة طلباتك من واجهة سهلة الاستخدام."
+    },
+    "gym": {
+      "title": "تطبيق حجز صالة الألعاب الرياضية",
+      "description": "تطبيق يسمح بحجز جلسات لجميع الأنشطة في صالة '4fit bardo' خلال فترة كوفيد لتنظيم المشاركة وتقليل التكاليف."
+    },
+    "odoo": {
+      "title": "وحدات Odoo للمحاسبة والموارد البشرية (تونس)",
+      "description": "تطوير وتخصيص وحدات Odoo المتكيفة مع السياق التونسي: المحاسبة، المالية، التدقيق، الموارد البشرية وأتمتة العمليات التجارية (OCR، تسوية البنوك، التقارير). الهدف: رقمنة وتبسيط عمليات المكاتب والشركات المحلية."
+    },
+    "signature": {
+      "title": "مولد توقيع البريد الإلكتروني الآلي",
+      "description": "تطبيق ويب لتوليد توقيعات بريد إلكتروني احترافية ديناميكية حسب المؤسسة. يمكن لكل مستخدم إنشاء توقيع متسق مع العلامة التجارية للشركة (شعار، منصب، جهات اتصال، شبكات اجتماعية) وتصديره بسهولة لـ Outlook أو Gmail."
+    },
+    "reporting": {
+      "title": "محاكي تقارير مقدمي الخدمات والعملاء",
+      "description": "منصة محاكاة وتحليل للتقارير بين مقدمي الخدمات والعملاء النهائيين. تتيح تحسين التحقق من المخرجات، متابعة الأداء وتقليل ما يصل إلى 6 ساعات من الإدارة الأسبوعية من خلال التقارير وسير العمل الآلي."
+    }
+  },
+  "ProjectsWeb": {
+    "padel": {
+      "title": "Padel & Sports Center Website",
+      "description": "Complete booking and management platform for padel courts with real-time availability, online reservations, tournament management, and player community features."
+    },
+    "fastfood": {
+      "title": "Fast Food Restaurant Command System",
+      "description": "Digital ordering platform for fast food restaurants featuring online ordering, QR code table scanning, real-time order tracking, kitchen display system, and loyalty program integration."
+    },
+    "coaching": {
+      "title": "Coaching & Mentoring Platform",
+      "description": "Professional coaching platform connecting certified coaches with clients. Features include session scheduling, video conferencing, goal tracking, progress analytics, and secure payment processing."
+    },
+    "babycare": {
+      "title": "BabyCare - Childcare Management Platform",
+      "description": "Comprehensive childcare management system for parents and daycare centers. Includes daily reports, milestone tracking, photo sharing, real-time communication, emergency contacts, and vaccination reminders."
+    },
+    "trainer": {
+      "title": "Personal Trainer Fitness Website",
+      "description": "All-in-one fitness platform for personal trainers to manage clients, create workout plans, track progress, schedule sessions, provide nutrition guidance, and offer virtual training sessions."
+    },
+    "portfolio": {
+      "title": "Professional Portfolio & Personal Brand",
+      "description": "Modern, interactive portfolio website showcasing professional work, skills, projects, and achievements. Features dynamic content management, project filtering, client testimonials, and contact forms."
+    },
+    "marketing": {
+      "title": "Marketing Agency Website",
+      "description": "Full-service digital marketing agency website with portfolio showcase, case studies, client dashboard, campaign management tools, analytics integration, and lead generation system."
+    },
+    "lawfirm": {
+      "title": "Law Firm & Legal Consulting Website",
+      "description": "Professional legal services platform with practice area showcases, attorney profiles, case management, appointment scheduling, secure client portal, document sharing, and legal resource library."
+    },
+    "daaquam": {
+      "title": "تطبيق Daaquam Monentreprise Virtuelle كندا",
+      "description": "موقع للإعلان وحجز الأكواخ ومواقع التخييم ومسارات المشي لجميع فصول السنة في كندا. تصميم ودمج الميزات، وإعداد الحجوزات."
+    },
+    "wordpress": {
+      "title": "موقع ووردبريس لوكالة اتصالات",
+      "description": "تطوير موقع ووردبريس مستقل لوكالة اتصالات في كندا. تخصيص التصميم والقالب ودمج المحتوى وإضافة الرسوم المتحركة..."
+    },
+    "cspv": {
+      "title": "الغرفة النقابية لمنتجي الطاقة الشمسية الكهروضوئية (CSPV)",
+      "description": "تصحيح وتحسين الموقع الإلكتروني لهذه المجموعة التي تتولى تنظيم الأحداث. تعزيز تسجيل الأعضاء الجدد وتنفيذ حملات تسويقية لإعلام التونسيين بمزايا تركيب الأنظمة الكهروضوئية."
+    }
+  },
+  "Testimonials": {
+    "heading": "كلمات طيبة من",
+    "headingPurple": "عملاء راضون",
+    "ali": {
+      "quote": "كان العمل مع إيهاب متعة حقيقية. احترافيته وسرعته وتفانيه في تقديم نتائج استثنائية كانت واضحة طوال مشروعنا. حماسة إيهاب لكل جانب من جوانب التطوير ملحوظة. إذا كنت ترغب في تحسين موقع الويب الخاص بك وتعزيز علامتك التجارية، فإن إيهاب هو الشريك المثالي.",
+      "name": "علي كنزاري",
+      "title": "رئيس الغرفة النقابية للطاقة الشمسية الكهروضوئية | أنظمة الطاقة الشمسية"
+    },
+    "anis": {
+      "quote": "إيهاب مطور full stack موثوق وسريع الاستجابة ويتمتع بحس حقيقي للمهنية. نستفيد من نصائحه ودعمه في مجال تطوير الويب وهندسة البرمجيات والحلول التقنية. دعم نوعي يتسم بالصرامة والموثوقية واللطف. اليوم، إيهاب شريك حقيقي لشركتنا وفاعل في نموها.",
+      "name": "أنيس مصحلي",
+      "title": "الرئيس التنفيذي ومؤسس CFAC Group | مهندس مالي | مراجع حسابات | مدير نظم المعلومات | مراجع طرف ثالث"
+    },
+    "mohamed": {
+      "quote": "بدون شك، إيهاب هو واحد من أكثر المبرمجين موهبة في السوق. عندما أواجه تحديات معقدة، ألجأ بشكل منهجي إلى مهاراته، وهو يلبي توقعاتي دائماً. يتمتع بذكاء ملحوظ وموثوقية عالية واحترافية مثالية، لن يخيب ظنك.",
+      "name": "محمد عياري",
+      "title": "مهندس الذكاء الاصطناعي والتعلم الآلي | بناء منتجات تعلم آلي واقعية"
+    },
+    "karem": {
+      "quote": "كادر شاب وديناميكي، دائم الالتزام بالمواعيد، مرحب ومتعاطف لتحديد وتوقع الصعوبات، مع اقتراح بدائل ملموسة بشكل منهجي. - ماركيتو جيوفاني وبولاني ليبرتو، مدير المصنع والمستشار العام لشركة Elettro BCA.",
+      "name": "كارم بلخيرية",
+      "title": "رئيس شركة - دوموتيك"
+    },
+    "feres": {
+      "quote": "من بداية المشروع وحتى نهايته، رافقنا إيهاب وتجاوز توقعاتنا بكل الطرق. لم تكن تجربتنا شخصية وودية فحسب، بل إن قدرته على تحديد وتقديم رسائلنا الرئيسية بطريقة خيالية وإبداعية أعطتنا ثقة هائلة فيه.",
+      "name": "فارس الفاضلي",
+      "title": "مهندس حلول السحابة"
+    }
+  },
+  "Skills": {
+    "heading": "مهاراتي",
+    "headingPurple": " ",
+    "frameworks": "أدوات",
+    "frameworksPurple": "الأطر",
+    "programming": "لغات",
+    "programmingPurple": "البرمجة",
+    "knowledge": "معرفتي",
+    "knowledgePurple": " ",
+    "databases": "قواعد",
+    "databasesPurple": "البيانات",
+    "tools": "إدارة",
+    "toolsPurple": "التبعيات"
+  },
+  "Experience": {
+    "heading": "رحلتي",
+    "headingPurple": "المهنية",
+    "resumeText": "اكتشف رحلتي المهنية والمشاريع الرئيسية التي أنجزتها.",
+    "resumeClick": "عرض المزيد",
+    "hayServ": {
+      "title": "مهندس هندسة برمجيات - HayServ",
+      "desc": "مسؤول عن تطوير ونشر ستة تطبيقات ويب رئيسية:",
+      "tasks": "الإدارة المالية | الموارد البشرية | إدارة الأنظمة والسحابة | سير العمل الآلي | نظام إدارة التذاكر."
+    },
+    "axeane": {
+      "title": "مطور Full Stack - Axeane",
+      "desc": "تصميم حلول آلية لتكامل كشوف الحسابات البنكية، تأمين بوابة مخصصة للموظفين لمتابعة قسائم الرواتب وإدارة الغيابات.",
+      "tasks": "الموارد البشرية | بوابة الوصول | التحكم في الأدوار والأذونات."
+    },
+    "cfac": {
+      "title": "مطور رئيسي - CFAC Group",
+      "desc": "مسؤول عن تطوير ونشر ستة تطبيقات ويب رئيسية:",
+      "tasks": "الإدارة المالية | الموارد البشرية | بوابة الوصول | موقع مؤسسي | تطبيق إدارة قانونية | نظام إدارة التذاكر."
+    },
+    "cspv": {
+      "title": "أمين عام - CSPV - UTICA",
+      "desc": "مسؤول عن تطوير وتصميم وتحديث الموقع الإلكتروني:",
+      "tasks": "تطوير الويب باستخدام ووردبريس | الإدارة الإدارية والمالية | التواصل والتسويق الرقمي."
+    },
+    "freelance": {
+      "title": "مطور ويب مستقل",
+      "desc": "مسؤول عن موقع مخصص لوكالة اتصالات:",
+      "tasks": "تخصيص التصميم | دمج المحتوى | الاستضافة | تحليلات جوجل | محركات البحث"
+    }
+  },
+  "Approach": {
+    "heading": "نهج",
+    "headingPurple": "عملي",
+    "step1": {
+      "title": "تخطيط الاستراتيجية",
+      "description": "سنعمل معاً لتحديد الأهداف والجمهور المستهدف والميزات الأساسية لموقعك الإلكتروني أو تطبيق الويب. سنتناول جوانب مثل هيكل الموقع والتنقل ومتطلبات المحتوى. ستتاح لك أيضاً خيار اختيار حل مطور مسبقاً يناسب احتياجاتك الخاصة.",
+      "order": "الخطوة الأولى"
+    },
+    "step2": {
+      "title": "التطوير والتخصيص والتحديث",
+      "description": "بمجرد الاتفاق على الخطة، أبدأ بالاستماع إلى قائمة التشغيل المفضلة لدي وأشرع في البرمجة. من الرسومات الأولية إلى الكود المصقول، سأبقيك على اطلاع في كل خطوة من العملية.",
+      "order": "الخطوة الثانية"
+    },
+    "step3": {
+      "title": "التقدم والتدريب والإطلاق",
+      "description": "هنا يحدث السحر! بناءً على التصميم المعتمد، سأقوم بتحويل كل شيء إلى كود وظيفي، لبناء موقعك الإلكتروني من الصفر.",
+      "order": "الخطوة الثالثة"
+    }
+  },
+  "Footer": {
+    "heading1": "هل أنت مستعد للارتقاء بوجودك ",
+    "heading2": "الرقمي",
+    "heading3": " إلى ",
+    "heading4": "المستوى التالي",
+    "desc": "تواصل معي اليوم ودعنا نناقش كيف يمكنني مساعدتك في تحقيق أهدافك.",
+    "cta": "دعني أساعدك في زيادة إيراداتك",
+    "copyright": "© 2024 جميع الحقوق محفوظة",
+    "madeWith": "صنع بـ ❤️"
+  },
+  "LanguageSwitcher": {
+    "french": "الفرنسية",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  }
+}

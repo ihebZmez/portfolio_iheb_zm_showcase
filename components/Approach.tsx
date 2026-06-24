@@ -1,21 +1,24 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
+  const t = useTranslations('Approach');
+
   return (
-    <section className="w-full py-20">
+    <section id="approach" className="w-full py-20">
       <h1 className="heading">
-        Mon <span className="text-purple">Approche</span>
+        {t('heading')} <span className="text-purple">{t('headingPurple')}</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planification Stratégie"
-          icon={<AceternityIcon order="1er Étape" />}
-          des="Nous travaillerons ensemble pour définir les objectifs, le public cible et les fonctionnalités essentielles de votre site Web ou application Web. Nous aborderons des aspects tels que la structure du site, la navigation et les exigences en matière de contenu. Vous aurez également la possibilité de choisir une solution pré-développée adaptée à vos besoins spécifiques."
+          title={t('step1.title')}
+          icon={<AceternityIcon order={t('step1.order')} />}
+          des={t('step1.description')}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,9 +27,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Développement Personnalisation Mise à jour"
-          icon={<AceternityIcon order="2ᵉ Étape" />}
-          des="Une fois que nous sommes d'accord sur le plan, je lance ma playlist lofi et je me lance dans le codage. Des croquis initiaux au code peaufiné, je vous tiens au courant à chaque étape du processus."
+          title={t('step2.title')}
+          icon={<AceternityIcon order={t('step2.order')} />}
+          des={t('step2.description')}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,10 +47,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Progrès Formation Lancement"
-          icon={<AceternityIcon order="3ᵉ Étape" />}
-          des="C'est ici que la magie opère ! Sur la base de la conception approuvée, 
-          je traduirai le tout en code fonctionnel, en construisant votre site Web à partir de zéro."
+          title={t('step3.title')}
+          icon={<AceternityIcon order={t('step3.order')} />}
+          des={t('step3.description')}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -159,24 +161,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-    // remove the svg and add the button
-    // <svg
-    //   width="66"
-    //   height="65"
-    //   viewBox="0 0 66 65"
-    //   fill="none"
-    //   xmlns="http://www.w3.org/2000/svg"
-    //   className="h-10 w-10 text-black dark:text-white group-hover/canvas-card:text-white "
-    // >
-    //   <path
-    //     d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-    //     stroke="currentColor"
-    //     strokeWidth="15"
-    //     strokeMiterlimit="3.86874"
-    //     strokeLinecap="round"
-    //     style={{ mixBlendMode: "darken" }}
-    //   />
-    // </svg>
   );
 };
 

@@ -1,21 +1,22 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 
 import {
   programmer_skills,
   framework_skills,
-  testimonials,
   database_skills,
   tools_on_skills,
   know_some_skills,
 } from "@/data";
-import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { AnimatedTooltip } from "./ui/AnimatedTooltip";
 
 const Skills = () => {
+  const t = useTranslations('Skills');
+
   return (
     <section id="skills" className="py-10 md:py-20">
       <h1 className="heading text-2xl md:text-3xl lg:text-4xl mb-8">
-        MES <span className="text-purple">Compétences</span>
+        {t('heading')} <span className="text-purple">{t('headingPurple')}</span>
       </h1>
 
       <div className="flex flex-col items-center w-full">
@@ -25,7 +26,7 @@ const Skills = () => {
             {/* Framework Skills */}
             <div className="skill-category">
               <h4 className="skill-heading">
-                Outils de <span className="text-purple">Framework</span>
+                {t('frameworks')} <span className="text-purple">{t('frameworksPurple')}</span>
               </h4>
               <div className="skill-content">
                 <AnimatedTooltip items={framework_skills} />
@@ -35,7 +36,7 @@ const Skills = () => {
             {/* Programming Languages */}
             <div className="skill-category">
               <h4 className="skill-heading">
-                Langage de <span className="text-purple">Programmation</span>
+                {t('programming')} <span className="text-purple">{t('programmingPurple')}</span>
               </h4>
               <div className="skill-content">
                 <AnimatedTooltip items={programmer_skills} />
@@ -45,7 +46,7 @@ const Skills = () => {
             {/* Technologies */}
             <div className="skill-category">
               <h4 className="skill-heading">
-                Mes <span className="text-purple">Connaissances</span>
+                {t('knowledge')} <span className="text-purple">{t('knowledgePurple')}</span>
               </h4>
               <div className="skill-content">
                 <AnimatedTooltip items={know_some_skills} />
@@ -55,7 +56,7 @@ const Skills = () => {
             {/* Databases */}
             <div className="skill-category">
               <h4 className="skill-heading">
-                Bases de <span className="text-purple">Données</span>
+                {t('databases')} <span className="text-purple">{t('databasesPurple')}</span>
               </h4>
               <div className="skill-content">
                 <AnimatedTooltip items={database_skills} />
@@ -65,7 +66,7 @@ const Skills = () => {
             {/* Tools */}
             <div className="skill-category">
               <h4 className="skill-heading">
-                Gestion <span className="text-purple">Dépendances</span>
+                {t('tools')} <span className="text-purple">{t('toolsPurple')}</span>
               </h4>
               <div className="skill-content">
                 <AnimatedTooltip items={tools_on_skills} />

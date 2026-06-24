@@ -1,0 +1,307 @@
+{
+  "Metadata": {
+    "title": "Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie",
+    "description": "Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web. Logiciels sur mesure pour entreprises tunisiennes."
+  },
+  "HomePage": {
+    "title": "Iheb Zmerli - Développeur Full Stack & Solutions Digitales en Tunisie",
+    "description": "Développeur full stack expert en Tunisie. Solutions de comptabilité, facturation, RH, audit et développement web. Logiciels sur mesure pour entreprises tunisiennes.",
+    "keywords": "développeur full stack, Tunisie, comptabilité, facturation, RH, audit, développement web, logiciels, entreprise, digital, portfolio",
+    "whatsappMessage": "Bonjour ! Je suis intéressé(e) par vos services. Pouvons-nous en discuter?"
+  },
+  "Hero": {
+    "tagline": "Full Stack Developer · Software Engineer · DevOps-Oriented",
+    "headline": "Je transforme vos idées en applications scalables et performantes",
+    "helpPrefix": "J'accompagne",
+    "helpTarget": " les entrepreneurs, startups et entreprises SaaS",
+    "problemText": "qui subissent des ",
+    "problem1": "blocages techniques",
+    "problemText2": ", des ",
+    "problem2": "délais dépassés",
+    "problemText3": " ou des ",
+    "problem3": " architectures non scalables",
+    "solutionText": "Je vous apporte une ",
+    "solutionHighlight": "exécution fluide et sans friction",
+    "solutionSuffix": " — du concept à la mise en production",
+    "badge1": "✅ 5+ ans d'expérience",
+    "badge2": "🏦 Finance · Comptabilité · RH",
+    "badge3": "🚀 Déploiement DevOps",
+    "badge4": "💼 Freelance disponible",
+    "cta": "Voir mes réalisations"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "projectsSaaS": "Projets SaaS",
+    "projectsWeb": "Projets Web",
+    "skills": "Compétences",
+    "testimonials": "Témoignages",
+    "nicheBusiness": "Entreprises de Niche",
+    "journey": "Parcours",
+    "approach": "Approche",
+    "contact": "Contact"
+  },
+  "GridServices": {
+    "webDevelopment": {
+      "title": "Développement Web",
+      "sections": {
+        "introduction": "Un site web est votre vitrine digitale qui représente votre entreprise 24/7.",
+        "types": "Landing page, site vitrine, site business, portfolio professionnel.",
+        "advantages": "Améliore votre visibilité et transforme vos visiteurs en clients.",
+        "responsive": "Compatible mobile, tablette et desktop avec performance optimisée."
+      }
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "sections": {
+        "introduction": "Une boutique en ligne vous permet de vendre vos produits 24/7.",
+        "features": "Panier, paiement sécurisé, gestion produits et commandes.",
+        "advantages": "Augmente vos ventes sans limite géographique."
+      }
+    },
+    "saas": {
+      "title": "Plateformes SaaS & Intégration",
+      "sections": {
+        "introduction": "Une plateforme SaaS permet de centraliser vos processus métier dans une application accessible en ligne, évolutive et sécurisée.",
+        "features": "Gestion des utilisateurs, automatisation des workflows, tableaux de bord, API d'intégration, gestion des données et modules métiers personnalisés.",
+        "integrations": "Connexion avec vos systèmes existants, synchronisation des données, automatisation entre services et interopérabilité des outils métier.",
+        "advantages": "Réduction des tâches manuelles, vision centralisée de l'activité, meilleure prise de décision et forte scalabilité pour la croissance."
+      }
+    },
+    "maintenance": {
+      "title": "Maintenance Web",
+      "sections": {
+        "introduction": "Assurer la stabilité et la sécurité de votre site en continu.",
+        "services": "Mises à jour, correction de bugs, optimisation des performances.",
+        "importance": "Un site non maintenu perd en sécurité et en performance."
+      }
+    },
+    "hosting": {
+      "title": "Hébergement & Déploiement",
+      "sections": {
+        "introduction": "Mettre votre application en ligne de manière sécurisée.",
+        "infrastructure": "Serveurs, domaines, SSL et configuration cloud.",
+        "performance": "Optimisation vitesse et disponibilité 24/7."
+      }
+    },
+    "n8n": {
+      "title": "n8n Automation Platform",
+      "sections": {
+        "overview": "n8n est un outil d'automatisation de workflows puissant qui permet une intégration transparente entre les applications, les services et les API via une interface visuelle intuitive.",
+        "workflow": "Créez, déployez et gérez des workflows automatisés connectant plus de 400 applications. Des transferts de données simples à l'orchestration de logiques métier complexes.",
+        "deployment": "• Auto-hébergé (Docker, npm)\n• n8n.cloud (SaaS)\n• Enterprise (sur site/virtuel)\n• Intégré dans vos applications"
+      }
+    }
+  },
+  "GridPersonel": {
+    "communication": "Communication claire et solutions adaptées à vos objectifs.",
+    "timezone": "Adaptation rapide aux fuseaux horaires et aux environnements internationaux."
+  },
+  "GridOptions": {
+    "finance": "Finances & Comptabilité",
+    "skills": "Compétences & Expériences",
+    "price": "Meilleur prix sur le marché de la technologie",
+    "administration": "Administration & Gestion",
+    "security": "Informatique & Sécurité",
+    "formulate": "Formuler & Développer",
+    "quality": "Meilleure Qualité De Code Pour Un Futur Évolutif",
+    "modeling": "Meilleures Modélisations",
+    "sales": "Ventes & Marketing",
+    "help": "Laissez-moi Vous Aider à Réaliser vos Projets",
+    "contact": "Comment me Contacter",
+    "tools": "Différents Outils"
+  },
+  "ProjectsSaaS": {
+    "invoice": {
+      "title": "Application de Facturation Pour Les Petites Entreprises",
+      "description": "Explorez les merveilles de notre système de gestion des stocks avec cette solution captivante. Gérez vos factures et paiements, projets et tâches, dépenses et fournisseurs."
+    },
+    "mycpac": {
+      "title": "Application MyCPAC - Gestion de la comptabilité, RH et Audit",
+      "description": "Toutes les fonctionnalités automatisées en une seule et unique application pour la comptabilité générale, paie, déclaration CNSS, liasse fiscale, immobilisation, déclaration employeur et états financiers."
+    },
+    "workflow": {
+      "title": "Application de Gestion de services et d'assistance",
+      "description": "Application web entièrement paramétrable, d'un système d'assistance et d'un outil documentaire, Gestion Services & Contrats, Automatisation, Synchronisation des données, Rapports."
+    },
+    "axeane": {
+      "title": "Application de Comptabilité et Paie",
+      "description": "Application complète de gestion de comptabilité et de paie développée pour AXEANE. Solution intégrée avec portail d'authentification multi-rôles, module de gestion des congés avec workflow d'approbation, automatisation OCR des relevés bancaires et moteur de calcul de paie intelligent, réduisant les traitements manuels de 20h/mois avec une précision de 98,9%."
+    },
+    "logistics": {
+      "title": "Application de Gestion des Expéditions, Livraisons et Commandes",
+      "description": "Optimisez votre logistique avec notre application innovante. Suivez vos expéditions en temps réel, gérez vos livraisons efficacement et surveillez vos commandes depuis une interface conviviale."
+    },
+    "gym": {
+      "title": "Application de Gestion de réservation salle de sport",
+      "description": "Application permettant de réserver des séances pour toutes les activités dans la salle de sport de '4fit bardo' dans la période de covid pour organiser la participation des personnes et minimiser les frais."
+    },
+    "odoo": {
+      "title": "Modules Odoo pour Comptabilité & RH (Tunisie)",
+      "description": "Développement et personnalisation de modules Odoo adaptés au contexte tunisien : comptabilité, finance, audit, RH et automatisation des processus métiers (OCR, rapprochement bancaire, reporting). Objectif : digitaliser et simplifier les opérations des cabinets et entreprises locales."
+    },
+    "signature": {
+      "title": "Générateur de Signatures Email Automatisé",
+      "description": "Application web permettant de générer des signatures email professionnelles dynamiques selon l'organisation. Chaque utilisateur peut créer une signature cohérente avec le branding de l'entreprise (logo, poste, contacts, réseaux sociaux) et l'exporter facilement pour Outlook ou Gmail."
+    },
+    "reporting": {
+      "title": "Simulateur de Reporting Prestataires & Clients",
+      "description": "Plateforme de simulation et d'analyse des rapports entre prestataires et clients finaux. Permet d'optimiser la validation des livrables, suivre les performances et réduire jusqu'à 6 heures de gestion hebdomadaire grâce à l'automatisation des rapports et workflows."
+    }
+  },
+  "ProjectsWeb": {
+    "padel": {
+      "title": "Padel & Sports Center Website",
+      "description": "Complete booking and management platform for padel courts with real-time availability, online reservations, tournament management, and player community features."
+    },
+    "fastfood": {
+      "title": "Fast Food Restaurant Command System",
+      "description": "Digital ordering platform for fast food restaurants featuring online ordering, QR code table scanning, real-time order tracking, kitchen display system, and loyalty program integration."
+    },
+    "coaching": {
+      "title": "Coaching & Mentoring Platform",
+      "description": "Professional coaching platform connecting certified coaches with clients. Features include session scheduling, video conferencing, goal tracking, progress analytics, and secure payment processing."
+    },
+    "babycare": {
+      "title": "BabyCare - Childcare Management Platform",
+      "description": "Comprehensive childcare management system for parents and daycare centers. Includes daily reports, milestone tracking, photo sharing, real-time communication, emergency contacts, and vaccination reminders."
+    },
+    "trainer": {
+      "title": "Personal Trainer Fitness Website",
+      "description": "All-in-one fitness platform for personal trainers to manage clients, create workout plans, track progress, schedule sessions, provide nutrition guidance, and offer virtual training sessions."
+    },
+    "portfolio": {
+      "title": "Professional Portfolio & Personal Brand",
+      "description": "Modern, interactive portfolio website showcasing professional work, skills, projects, and achievements. Features dynamic content management, project filtering, client testimonials, and contact forms."
+    },
+    "marketing": {
+      "title": "Marketing Agency Website",
+      "description": "Full-service digital marketing agency website with portfolio showcase, case studies, client dashboard, campaign management tools, analytics integration, and lead generation system."
+    },
+    "lawfirm": {
+      "title": "Law Firm & Legal Consulting Website",
+      "description": "Professional legal services platform with practice area showcases, attorney profiles, case management, appointment scheduling, secure client portal, document sharing, and legal resource library."
+    },
+    "daaquam": {
+      "title": "Application Daaquam Monentre Prisevirtuelle Canada",
+      "description": "site pour la publicité, la réservation de chalets, de terrains de camping et de randonnées pour toutes les saisons de l'année au Canada. Conception et Intégration des fonctionnalités, Mise en place des réservations."
+    },
+    "wordpress": {
+      "title": "site WordPress pour une agence de communication",
+      "description": "Développer un site Freelance WordPress pour une agence de communication au Canada. Personnaliser le design, le thème et Intégrer du contenu, mettre les animations..."
+    },
+    "cspv": {
+      "title": "Chambre Syndicale des Producteurs de Photovoltaïque (CSPV)",
+      "description": "Corriger et optimiser le site web pour ce groupe qui prend en charge l'organisation des événements. Promouvoir l'adhésion de nouveaux membres et mener des actions marketing pour informer les Tunisiens des avantages de l'installation photovoltaïques."
+    }
+  },
+  "Testimonials": {
+    "heading": "Mots Aimables De",
+    "headingPurple": "Clients Satisfaits",
+    "ali": {
+      "quote": "Travailler avec Iheb a été un véritable plaisir. Son professionnalisme, sa rapidité et son dévouement à fournir des résultats exceptionnels étaient évidents tout au long de notre projet. L'enthousiasme d'Adrian pour chaque aspect du développement est remarquable. Si vous souhaitez améliorer votre site web et rehausser votre marque, Iheb est le partenaire idéal.",
+      "name": "Ali KANZARI",
+      "title": "Président de Chambre syndicale du photovoltaïque | Solar Energy Systems"
+    },
+    "anis": {
+      "quote": "Iheb est un développeur full stack fiable, réactif et doté d'un vrai sens du professionnalisme. Nous bénéficions de ses conseils et de son accompagnement en matière de développement web, d'architecture logicielle et de solutions techniques. Un accompagnement de qualité, marqué par la rigueur, la fiabilité et la bienveillance d'Iheb. Aujourd'hui, Iheb est un véritable partenaire de notre société, acteur de notre croissance.",
+      "name": "Anis MSAHLI",
+      "title": "CEO & Founder CFAC Group | Ingénieur Financier | Commissaire Aux Comptes | Directeur des systèmes d'information | Auditeur Tierce Partie"
+    },
+    "mohamed": {
+      "quote": "Sans conteste, Iheb est l'un des programmeurs les plus talentueux du marché. Lorsque je me trouve face à des défis complexes, je fais systématiquement appel à ses compétences, et il répond toujours à mes attentes. Doté d'une intelligence remarquable, d'une grande fiabilité et d'un professionnalisme exemplaire, il ne vous décevra pas.",
+      "name": "Mohamed AYARI",
+      "title": "AI/ML Engineer | Building real-world ML products"
+    },
+    "karem": {
+      "quote": "Personnel jeune et dynamique, toujours ponctuel, accueillant et doté d'une grande empathie pour identifier et anticiper les difficultés, en proposant systématiquement des alternatives concrètes. - Marchetto Giovanni & Pollani Liberto, Directeur de l'usine et Avocat général d'Elettro BCA.",
+      "name": "Karem BELKHIRIA",
+      "title": "Chef d'entreprise - domotech"
+    },
+    "feres": {
+      "quote": "Du début du projet jusqu'à son achèvement, Iheb nous a accompagné et a dépassé nos attentes à tous points de vue. Non seulement notre expérience a été personnelle et amicale, mais sa capacité à identifier et à présenter nos messages clés de manière imaginative et créative nous a donné une énorme confiance en lui.",
+      "name": "Feres FOUDHAILI",
+      "title": "Architecte De Solutions Cloud"
+    }
+  },
+  "Skills": {
+    "heading": "Mes",
+    "headingPurple": "Compétences",
+    "frameworks": "Outils de",
+    "frameworksPurple": "Framework",
+    "programming": "Langage de",
+    "programmingPurple": "Programmation",
+    "knowledge": "Mes",
+    "knowledgePurple": "Connaissances",
+    "databases": "Bases de",
+    "databasesPurple": "Données",
+    "tools": "Gestion",
+    "toolsPurple": "Dépendances"
+  },
+  "Experience": {
+    "heading": "Mon",
+    "headingPurple": "Parcours Professionnel",
+    "resumeText": "Découvrez mon parcours professionnel et les projets clés que j'ai réalisés.",
+    "resumeClick": "Voir plus",
+    "hayServ": {
+      "title": "Ingénieur en Architecture Logicielle - HayServ",
+      "desc": "Responsable de développement et déploiement de six applications web majeures :",
+      "tasks": "Gestion Financière | Gestion Humaines | Administration de system et cloud | Flux Automatisés | Système De Gestion Des Tickets."
+    },
+    "axeane": {
+      "title": "Développeur Full Stack - Axeane",
+      "desc": "Conception de solutions automatisées pour l'intégration des relevés bancaires, sécurisation d'un portail dédié aux salariés pour le suivi des bulletins de paie et la gestion des absences.",
+      "tasks": "Ressources Humaines | Portail d'Accès | Controle des role et des permission."
+    },
+    "cfac": {
+      "title": "Développeur principal - CFAC Group",
+      "desc": "Responsable de développement et déploiement de six applications web majeures :",
+      "tasks": "Gestion Financière | Ressources Humaines | Portail d'Accès | Site Web Institutionnel | Application De Gestion Juridique | Système De Gestion Des Tickets."
+    },
+    "cspv": {
+      "title": "Secrétaire Général - CSPV - UTICA",
+      "desc": "Responsable sur le développement, le désigne et la mise à jour de site web :",
+      "tasks": "Développement Web Avec WordPress | Gestion Administrative Et Financière | Communication et Marketing Digital."
+    },
+    "freelance": {
+      "title": "Développeur Web Indépendant",
+      "desc": "Responsable d'un site personnalisé pour une agence de communication :",
+      "tasks": "Personnaliser Le Design | Intégration Du Contenu | Hébergement | Google Analytique | Moteurs De Recherche"
+    }
+  },
+  "Approach": {
+    "heading": "Mon",
+    "headingPurple": "Approche",
+    "step1": {
+      "title": "Planification Stratégie",
+      "description": "Nous travaillerons ensemble pour définir les objectifs, le public cible et les fonctionnalités essentielles de votre site Web ou application Web. Nous aborderons des aspects tels que la structure du site, la navigation et les exigences en matière de contenu. Vous aurez également la possibilité de choisir une solution pré-développée adaptée à vos besoins spécifiques.",
+      "order": "1ère Étape"
+    },
+    "step2": {
+      "title": "Développement Personnalisation Mise à jour",
+      "description": "Une fois que nous sommes d'accord sur le plan, je lance ma playlist lofi et je me lance dans le codage. Des croquis initiaux au code peaufiné, je vous tiens au courant à chaque étape du processus.",
+      "order": "2ème Étape"
+    },
+    "step3": {
+      "title": "Progrès Formation Lancement",
+      "description": "C'est ici que la magie opère ! Sur la base de la conception approuvée, je traduirai le tout en code fonctionnel, en construisant votre site Web à partir de zéro.",
+      "order": "3ème Étape"
+    }
+  },
+  "Footer": {
+    "heading1": "Prêt à faire passer votre présence ",
+    "heading2": "numérique",
+    "heading3": " au niveau ",
+    "heading4": "supérieur",
+    "desc": "Contactez-moi aujourd'hui et discutons de la manière dont je peux vous aider à atteindre vos objectifs.",
+    "cta": "Laisse-moi t'aider à augmenter tes revenus",
+    "copyright": "Droits © 2024",
+    "madeWith": "Fait avec ❤️"
+  },
+  "LanguageSwitcher": {
+    "french": "Français",
+    "english": "Anglais",
+    "arabic": "Arabe"
+  }
+}

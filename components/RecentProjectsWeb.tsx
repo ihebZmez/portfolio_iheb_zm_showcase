@@ -1,11 +1,28 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import { projectsWeb } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjectsWeb = () => {
+  const t = useTranslations("ProjectsWeb");
+  const idToKey: Record<number, string> = {
+    1: 'padel',
+    2: 'fastfood',
+    3: 'coaching',
+    4: 'babycare',
+    5: 'trainer',
+    6: 'portfolio',
+    7: 'marketing',
+    8: 'lawfirm',
+    9: 'daaquam',
+    10: 'wordpress',
+    11: 'cspv'
+  };
+
   return (
     <div id="projectsWeb" className="py-20">
       <h1 className="heading">
@@ -45,7 +62,7 @@ const RecentProjectsWeb = () => {
               </div>
 
               <h1 className="font-bold lg:text-xl md:text-xl text-base line-clamp-2">
-                {item.title}
+                {t(`${idToKey[item.id]}.title`) || item.title}
               </h1>
 
               <p
@@ -55,7 +72,7 @@ const RecentProjectsWeb = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {t(`${idToKey[item.id]}.description`) || item.des}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">

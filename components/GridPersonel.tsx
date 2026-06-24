@@ -1,7 +1,16 @@
+"use client";
+
 import { gridItemsPersonel } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { useTranslations } from "next-intl";
 
 const GridPersonel = () => {
+  const t = useTranslations("GridPersonel");
+  const idToKey: Record<number, string> = {
+    1: 'communication',
+    2: 'timezone'
+  };
+
   return (
     <section id="about">
       <BentoGrid className="w-full py-20">
@@ -9,7 +18,7 @@ const GridPersonel = () => {
           <BentoGridItem
             id={item.id}
             key={i}
-            title={item.title}
+            title={t(idToKey[item.id]) || item.title}
             description={item.description}
             // remove icon prop
             // remove original classname condition

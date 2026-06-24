@@ -3,10 +3,14 @@ import { FaGlobe, FaShoppingCart, FaTools, FaServer, FaSass, FaBeer } from "reac
 export const navItems = [
   { name: "Accueil", link: "#" },
   { name: "À Propos", link: "#about" },
+  { name: "Services", link: "#services" },
   { name: "Projets SaaS", link: "#projectsSaaS" },
   { name: "Projets Web", link: "#projectsWeb" },
   { name: "Compétences", link: "#skills" },
   { name: "Témoignages", link: "#testimonials" },
+  { name: "Entreprises de Niche", link: "#nicheBusiness" },
+  { name: "Parcours", link: "#journey" },
+  { name: "Approche", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -68,7 +72,7 @@ export const gridServicesItems = [
     id: 3,
     title: "Plateformes SaaS & Intégration",
     icon: FaSass,
-    color: "from-green-500/20 to-emerald-500/10",
+    color: "from-orange-500/20 to-yellow-500/10",
     sections: [
       {
         title: "Introduction",
@@ -97,7 +101,7 @@ export const gridServicesItems = [
     id: 4,
     title: "Maintenance Web",
     icon: FaTools,
-    color: "from-purple-500/20 to-pink-500/10",
+    color: "from-teal-500/20 to-cyan-500/10",
     sections: [
       {
         title: "Introduction",
@@ -121,7 +125,7 @@ export const gridServicesItems = [
     id: 5,
     title: "Hébergement & Déploiement",
     icon: FaServer,
-    color: "from-orange-500/20 to-yellow-500/10",
+    color: "from-rose-500/20 to-pink-500/10",
     sections: [
       {
         title: "Introduction",

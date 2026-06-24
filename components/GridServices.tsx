@@ -1,16 +1,44 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { gridServicesItems } from "@/data";
 
 const GridServices = () => {
+  const t = useTranslations("GridServices");
   const [activeId, setActiveId] = useState(1);
   const active = gridServicesItems.find((s) => s.id === activeId);
 
+  const idToKey: Record<number, string> = {
+    1: 'webDevelopment',
+    2: 'ecommerce',
+    3: 'saas',
+    4: 'maintenance',
+    5: 'hosting',
+    6: 'n8n'
+  };
+
+  const sectionTitleToKey: Record<string, string> = {
+    "Introduction": "introduction",
+    "Types de sites": "types",
+    "Avantages": "advantages",
+    "Responsive Design": "responsive",
+    "Fonctionnalités": "features",
+    "Intégrations": "integrations",
+    "Services": "services",
+    "Importance": "importance",
+    "Infrastructure": "infrastructure",
+    "Performance": "performance",
+    "Overview": "overview",
+    "Workflow Automation": "workflow",
+    "Deployment Options": "deployment"
+  };
+
   return (
-    <section className="py-24">
+    <section id="services" className="py-24">
       <div className="container mx-auto px-4 max-w-7xl">
 
         {/* HEADER */}
@@ -52,7 +80,7 @@ const GridServices = () => {
                   <div className="flex items-center gap-5 mb-1">
                     <Icon className="text-white" />
                     <h3 className="text-white font-semibold">
-                      {item.title}
+                      {t(`${idToKey[item.id]}.title`) || item.title}
                     </h3>
                   </div>
 
@@ -81,7 +109,7 @@ const GridServices = () => {
 
             {/* CASE STUDY TITLE */}
             <h2 className="text-2xl font-bold mb-6 text-purple-300">
-              Étude de cas : {active?.title}
+              Étude de cas : {active ? t(`${idToKey[active.id]}.title`) : ''}
             </h2>
 
             {/* SECTIONS */}
@@ -105,7 +133,9 @@ const GridServices = () => {
 
                   {/* CONTENT */}
                   <p className="text-gray-300 leading-relaxed">
-                    {section.content}
+                    {active && sectionTitleToKey[section.title] 
+                      ? t(`${idToKey[active.id]}.sections.${sectionTitleToKey[section.title]}`) 
+                      : section.content}
                   </p>
 
                 </div>

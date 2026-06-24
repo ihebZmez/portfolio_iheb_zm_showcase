@@ -3,8 +3,10 @@ import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("Footer");
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -20,17 +22,16 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Prêt à faire passer votre présence{" "}
-          <span className="text-purple">numérique</span> au niveau{" "}
-          <span className="text-purple">supérieur </span>?
+          {t('heading1')}
+          <span className="text-purple">{t('heading2')}</span>{t('heading3')}
+          <span className="text-purple">{t('heading4')} ?</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Contactez-moi aujourd&apos;hui et discutons de la manière dont je peux
-          vous aider à atteindre vos objectifs.
+          {t('desc')}
         </p>
         <a href="mailto:ihebzmerli@gmail.com">
           <MagicButton
-            title="Laisse-moi t'aider à augmenter tes revenus"
+            title={t('cta')}
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -38,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Droits © 2024 <span className="text-purple">IH</span> Zm
+          {t('copyright')} <span className="text-purple">IH</span> Zm
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

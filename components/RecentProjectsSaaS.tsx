@@ -1,11 +1,26 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import { projectsSaaS } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjectsSaaS = () => {
+  const t = useTranslations("ProjectsSaaS");
+  const idToKey: Record<number, string> = {
+    1: 'invoice',
+    2: 'mycpac',
+    3: 'workflow',
+    4: 'axeane',
+    5: 'logistics',
+    6: 'gym',
+    7: 'odoo',
+    8: 'signature',
+    9: 'reporting'
+  };
+
   return (
     <div id="projectsSaaS" className="py-20">
       <h1 className="heading">
@@ -45,7 +60,7 @@ const RecentProjectsSaaS = () => {
               </div>
 
               <h1 className="font-bold lg:text-xl md:text-xl text-base line-clamp-2">
-                {item.title}
+                {t(`${idToKey[item.id]}.title`) || item.title}
               </h1>
 
               <p
@@ -55,7 +70,7 @@ const RecentProjectsSaaS = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {t(`${idToKey[item.id]}.description`) || item.des}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
