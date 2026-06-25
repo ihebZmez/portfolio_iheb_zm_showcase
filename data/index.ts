@@ -166,24 +166,24 @@ export const gridServicesItems = [
     ]
   }
 ];
+
 export const gridItemsPersonel = [
   {
     id: 1,
     title: "Communication claire et solutions adaptées à vos objectifs.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[80vh]",
-    imgClassName: "w-[85%] h-[85%] object-contain mx-auto",
-    titleClassName: "justify-end",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 min-h-[300px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-[600px]",
+    imgClassName: "w-full h-full object-contain p-2 sm:p-4 md:p-8",
+    titleClassName: "justify-end items-end p-3 sm:p-4 md:p-6 lg:p-8",
     img: "/Iheb_Zmerli_Welcome.jpg",
   },
   {
     id: 2,
-    title:
-      "Adaptation rapide aux fuseaux horaires et aux environnements internationaux.",
+    title: "Adaptation rapide aux fuseaux horaires et aux environnements internationaux.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4 min-h-[200px] sm:min-h-[300px] md:min-h-[400px] lg:min-h-[500px]",
     imgClassName: "",
-    titleClassName: "justify-start",
+    titleClassName: "justify-start items-start p-3 sm:p-4 md:p-6 lg:p-8",
     img: "",
     spareImg: "",
   },

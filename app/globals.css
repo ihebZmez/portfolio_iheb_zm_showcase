@@ -71,34 +71,312 @@
     @apply border-border !scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    overflow-x: hidden;
   }
   button {
     @apply active:outline-none;
+  }
+  
+  /* Responsive images */
+  img {
+    @apply max-w-full h-auto;
   }
 }
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+    @apply font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center;
+  }
+  
+  .heading-lg {
+    @apply font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center;
+  }
+  
+  .heading-sm {
+    @apply font-bold text-xl sm:text-2xl md:text-3xl text-center;
+  }
+
+  .container-responsive {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-10 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  .section-padding-top {
+    @apply pt-10 sm:pt-16 md:pt-20 lg:pt-24;
+  }
+
+  .section-padding-bottom {
+    @apply pb-10 sm:pb-16 md:pb-20 lg:pb-24;
+  }
+
+  /* Responsive text utilities */
+  .text-responsive {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+  
+  .text-responsive-lg {
+    @apply text-base sm:text-lg md:text-xl lg:text-2xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+
+  /* Grid responsive utilities */
+  .grid-responsive {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+  
+  .grid-responsive-2 {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6;
+  }
+  
+  .grid-responsive-4 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6;
+  }
+
+  /* Flex responsive utilities */
+  .flex-responsive {
+    @apply flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6;
+  }
+
+  /* Card responsive utilities */
+  .card-responsive {
+    @apply p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl;
+  }
+
+  /* Gap responsive utilities */
+  .gap-responsive {
+    @apply gap-3 sm:gap-4 md:gap-6;
+  }
+
+  /* Margin responsive utilities */
+  .margin-responsive {
+    @apply my-4 sm:my-6 md:my-8 lg:my-10;
+  }
+
+  /* Padding responsive utilities */
+  .padding-responsive {
+    @apply px-3 sm:px-4 md:px-6 lg:px-8;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Safe area for notch devices */
+  @supports (padding: max(0px)) {
+    .safe-area-top {
+      padding-top: max(env(safe-area-inset-top), 1rem);
+    }
+    .safe-area-bottom {
+      padding-bottom: max(env(safe-area-inset-bottom), 1rem);
+    }
+  }
+
+  /* Touch-friendly buttons */
+  .touch-friendly {
+    @apply min-h-[44px] min-w-[44px] sm:min-h-[48px] sm:min-w-[48px];
+  }
+
+  /* Container queries for better responsive */
+  .responsive-container {
+    container-type: inline-size;
+    container-name: responsive;
+  }
+
+  /* Fix for mobile overscroll */
+  .prevent-overscroll {
+    overscroll-behavior: none;
+  }
+
+  /* Responsive border radius */
+  .radius-responsive {
+    @apply rounded-lg sm:rounded-xl md:rounded-2xl;
   }
 }
 
+/* Skill category styles - Enhanced responsive */
 .skill-category {
   @apply bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white 
-         p-4 md:p-6 rounded-2xl w-full transition-all duration-300
+         p-3 sm:p-4 md:p-6 rounded-xl sm:rounded-2xl w-full transition-all duration-300
          hover:shadow-lg hover:scale-[1.02];
 }
 
 .skill-heading {
-  @apply text-lg md:text-xl font-semibold mb-4 text-center;
+  @apply text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 text-center;
 }
 
 .skill-content {
-  @apply flex flex-wrap justify-center gap-3 md:gap-4;
+  @apply flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4;
 }
 
-/* Add this to adjust the AnimatedTooltip images */
+/* AnimatedTooltip responsive adjustments */
 .animated-tooltip-image {
-  @apply w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain;
+  @apply w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain;
+}
+
+/* Mobile first breakpoints */
+@media (max-width: 640px) {
+  .heading {
+    @apply text-2xl;
+  }
+  .heading-lg {
+    @apply text-3xl;
+  }
+  .heading-sm {
+    @apply text-xl;
+  }
+}
+
+/* Tablet breakpoint */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .heading {
+    @apply text-3xl;
+  }
+  .heading-lg {
+    @apply text-4xl;
+  }
+  .heading-sm {
+    @apply text-2xl;
+  }
+}
+
+/* Ensure text is readable on all devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .skill-heading {
+    @apply text-sm;
+  }
+}
+
+/* Fix for mobile tap highlight */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive container for all sections */
+.section-container {
+  @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Responsive grid with auto-fit */
+.grid-auto-fit {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6;
+}
+
+/* Responsive flex with wrap */
+.flex-wrap-responsive {
+  @apply flex flex-wrap items-center justify-center gap-2 sm:gap-3 md:gap-4;
+}
+
+/* Responsive text with clamp */
+.text-clamp {
+  font-size: clamp(0.875rem, 2vw, 1.25rem);
+}
+
+.heading-clamp {
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.subheading-clamp {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+/* Mobile menu overlay */
+.mobile-menu-overlay {
+  @apply fixed inset-0 bg-black/50 backdrop-blur-sm z-40;
+}
+
+/* Responsive cards */
+.card-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6;
+}
+
+/* Two column responsive */
+.two-col-responsive {
+  @apply flex flex-col lg:flex-row gap-6 lg:gap-12;
+}
+
+/* Image responsive wrapper */
+.image-wrapper {
+  @apply relative w-full h-auto;
+}
+
+.image-wrapper img {
+  @apply object-cover w-full h-auto;
+}
+
+/* Fix for BentoGrid images */
+.bento-grid-image {
+  @apply w-full h-full object-contain object-center;
+}
+
+.bento-grid-image-container {
+  @apply relative w-full h-full flex items-center justify-center;
+}
+
+/* Responsive image container */
+.bento-image-wrapper {
+  @apply w-full h-full flex items-center justify-center p-2 sm:p-4;
+}
+
+.bento-image-wrapper img {
+  @apply max-w-full max-h-full object-contain;
+}
+/* Ensure images don't overflow their containers */
+.bento-grid-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bento-grid-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Responsive image sizing */
+@media (max-width: 640px) {
+  .bento-grid-image-container img {
+    object-fit: contain;
+    max-height: 80%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .bento-grid-image-container img {
+    object-fit: contain;
+    max-height: 85%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .bento-grid-image-container img {
+    object-fit: contain;
+    max-height: 90%;
+  }
 }

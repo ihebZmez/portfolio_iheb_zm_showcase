@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import {
   motion,
@@ -10,6 +10,7 @@ import {
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import LanguageSwitcher from "../LanguageSwitcher";
+import { Menu, X } from "lucide-react";
 
 export const FloatingNav = ({
   navItems,
@@ -26,6 +27,8 @@ export const FloatingNav = ({
 
   // set true for the initial state so that nav bar is visible in the hero section
   const [visible, setVisible] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const t = useTranslations("Navigation");
 
   const nameToKey: Record<string, string> = {
@@ -41,6 +44,27 @@ export const FloatingNav = ({
     "Approche": "approach",
     "Contact": "contact",
   };
+
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  // Close mobile menu when scrolling
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isMobileMenuOpen) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isMobileMenuOpen]);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
@@ -75,10 +99,13 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          // change rounded-full to rounded-lg
-          // remove dark:border-white/[0.2] dark:bg-black bg-white border-transparent
-          // change  pr-2 pl-8 py-2 to px-10 py-5
-          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-between gap-4",
+          "flex fixed z-[5000] top-4 sm:top-6 md:top-10 inset-x-0 mx-auto",
+          "px-3 sm:px-6 md:px-10 py-3 sm:py-4 md:py-5",
+          "rounded-lg border border-black/.1",
+          "shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]",
+          "items-center justify-between gap-2 sm:gap-4",
+          "max-w-[95vw] sm:max-w-[90vw] md:max-w-fit",
+          "md:min-w-[70vw] lg:min-w-fit",
           className
         )}
         style={{
@@ -88,28 +115,78 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {/* Desktop Navigation - Hidden on mobile */}
+        <div className="hidden md:flex items-center gap-2 lg:gap-4 overflow-x-auto scrollbar-hide">
+          {navItems.map((navItem: any, idx: number) => (
+            <Link
+              key={`link=${idx}`}
+              href={navItem.link}
+              className={cn(
+                "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
+                "px-1.5 lg:px-2 py-1"
+              )}
+            >
+              <span className="block sm:hidden">{navItem.icon}</span>
+              <span className="text-xs lg:text-sm !cursor-pointer whitespace-nowrap">
+                {t(nameToKey[navItem.name] || 'home')}
+              </span>
+            </Link>
+          ))}
+        </div>
+
+        {/* Mobile Menu Button - Visible only on mobile */}
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="md:hidden text-white/70 hover:text-white transition-colors p-1"
+          aria-label="Toggle menu"
+        >
+          {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
+
+        {/* Mobile Logo/Home - Visible only on mobile */}
+        <div className="md:hidden flex items-center">
           <Link
-            key={`link=${idx}`}
-            href={navItem.link}
-            className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
-            )}
+            href="#"
+            className="text-white text-sm font-medium"
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            {/* add !cursor-pointer */}
-            {/* remove hidden sm:block for the mobile responsive */}
-            <span className="text-sm !cursor-pointer whitespace-nowrap">
-              {t(nameToKey[navItem.name] || 'home')}
-            </span>
+            {t('home')}
           </Link>
-        ))}
-        <LanguageSwitcher />
-        {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Login</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
-        </button> */}
+        </div>
+
+        {/* Language Switcher */}
+        <div className="flex-shrink-0">
+          <LanguageSwitcher />
+        </div>
+
+        {/* Mobile Dropdown Menu */}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: -10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -10, scale: 0.95 }}
+              transition={{ duration: 0.15 }}
+              className="md:hidden absolute top-full left-2 right-2 mt-2 bg-black-200/95 backdrop-blur-lg border border-white/10 rounded-xl shadow-2xl overflow-hidden z-[100]"
+            >
+              <div className="flex flex-col p-2 gap-1 max-h-[70vh] overflow-y-auto">
+                {navItems.map((navItem: any, idx: number) => {
+                  // Skip duplicate home link in mobile menu
+                  if (navItem.name === "Accueil" && idx === 0) return null;
+                  return (
+                    <Link
+                      key={`mobile-link=${idx}`}
+                      href={navItem.link}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="px-4 py-2.5 text-sm text-white/80 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
+                    >
+                      {t(nameToKey[navItem.name] || 'home')}
+                    </Link>
+                  );
+                })}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
     </AnimatePresence>
   );
